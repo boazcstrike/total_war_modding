@@ -1,0 +1,40 @@
+<VARIANT_MESH>
+	<SLOT name="base" >
+		<VARIANT_MESH>
+			<SLOT name="skin" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_rom_medium_cut_01b.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_rom_medium_cut_02a.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="hair" />
+			<SLOT name="props" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\props/greek_quiver.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="accessories" />
+			<SLOT name="helmets" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\helmets/laqs_coifed_archer_helms.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="clothing" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\clothing/laqs_basic_cataphract_armour.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="cloaks" />
+			<SLOT name="vambraces" />
+			<SLOT name="greaves" />
+			<SLOT name="shield" attach_point="weapon_03" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/round_small_curved_reinforced_shield.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="boss" />
+			<SLOT name="weapon_1" attach_point="weapon_04" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\weapons/shortbow_02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\weapons/roman_bow.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="weapon_2" attach_point="weapon_01" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\weapons/steppe_pickaxe_02.rigid_model_v2" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\weapons/att_mace.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_3" attach_point="weapon_05" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\weapons/roman_arrow.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="weapon_4" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

@@ -1,0 +1,49 @@
+<VARIANT_MESH>
+	<SLOT name="base" >
+		<VARIANT_MESH>
+			<SLOT name="skin" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_est_light_cut_02a.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="hair" />
+			<SLOT name="props" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/eastern_belt_02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/eastern_belt_03.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/nomadic_belt_03.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/nomadic_belt_04.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="accessories" />
+			<SLOT name="helmets" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\helmets/laqs_tasinarioi_helms.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="clothing" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\clothing/att_eastern_elite_mail_amulet_vam_gre.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="cloaks" />
+			<SLOT name="vambraces" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\bracers/att_leather_fur_light.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\bracers/att_leather_fur_dark.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="greaves" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\leg/devil_raider_boots_02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\leg/devil_raider_boots_01.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="shield" attach_point="weapon_03" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/att_cha_umayyad_shield1.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/att_cha_umayyad_shield2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/att_cha_umayyad_shield3.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/att_cha_umayyad_shield4.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="boss" />
+			<SLOT name="weapon_1" attach_point="weapon_04" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\weapons/shortbow_02.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="weapon_2" attach_point="weapon_02" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\weapons/steppe_pickaxe_02.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="weapon_3" attach_point="weapon_05" />
+			<SLOT name="weapon_4" attach_point="weapon_05" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\weapons/roman_arrow.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

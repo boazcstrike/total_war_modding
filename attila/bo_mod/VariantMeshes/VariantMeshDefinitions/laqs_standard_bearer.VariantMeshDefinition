@@ -1,0 +1,43 @@
+<VARIANT_MESH>
+	<SLOT name="base" >
+		<VARIANT_MESH>
+			<SLOT name="skin" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_rom_light_cut_01b.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_rom_light_cut_01a.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="hair" />
+			<SLOT name="props" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shoulders/chainmail_shoulders_02.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="accessories" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/crossbelt_pouch_3.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/crossbelt_pouch_2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/crossbelt_pouch_1.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="helmets" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\helmets/laqs_imperial_helms.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="clothing" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\clothing/laqs_officer_colored.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="cloaks" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\cloak/att_eastern_long_sash.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="vambraces" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\bracers/att_bronze_scale_bracers.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="greaves" />
+			<SLOT name="shield" attach_point="weapon_03" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\shield/laqs_chi_rho_shields_heavy_large.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="boss" />
+			<SLOT name="weapon_1" />
+			<SLOT name="weapon_2" attach_point="weapon_01" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\standards/att_rom_chi_rho.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\standards/att_rom_standard.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_3" />
+			<SLOT name="weapon_4" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>
