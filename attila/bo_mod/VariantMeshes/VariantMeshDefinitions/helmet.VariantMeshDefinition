@@ -1,0 +1,16 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+	<VARIANT_MESH>
+		<SLOT name="top_crests" >
+		</SLOT> 
+		<SLOT name="side_crests" >
+		</SLOT>
+		<SLOT name="cheeks" >
+		</SLOT>
+		<SLOT name="face" >
+		</SLOT>
+		<SLOT name="neck" >
+		</SLOT>
+	</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

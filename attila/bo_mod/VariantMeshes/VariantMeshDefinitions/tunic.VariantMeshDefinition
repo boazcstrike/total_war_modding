@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="tunics" >
+	<VARIANT_MESH>
+		<SLOT name="armour" >
+		</SLOT> 
+	</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>	

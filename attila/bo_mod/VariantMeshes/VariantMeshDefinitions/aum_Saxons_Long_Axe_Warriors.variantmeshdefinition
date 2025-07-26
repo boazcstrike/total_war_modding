@@ -1,0 +1,42 @@
+<VARIANT_MESH>
+	<SLOT name="base" >
+		<VARIANT_MESH>
+			<SLOT name="skin" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/skin/att_nor_light_cut_02b.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="hair" />
+			<SLOT name="props" />
+			<SLOT name="accessories" />
+			<SLOT name="helmets" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/helmets/att_nordic_ridge_mail.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/helmets/att_nordic_ridge_mail.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/helmets/att_nordic_ridge.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/helmets/att_officer_nordic_ridge_bronze.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="clothing" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/clothing/att_german_heavy_mail_sleeves_elite_greaves.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/clothing/att_german_heavy_mail_sleeves_elite_greaves.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/clothing/att_german_heavy_mail_sleevesless_gre.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/clothing/att_nordic_padded_mail_gre.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="cloaks" probability ="0.8" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/cloak/att_sheep_mantle.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/cloak/att_wolf_mantle.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/cloak/att_bear_mantle_armour.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="vambraces" />
+			<SLOT name="greaves" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/greaves/att_plate_iron_greaves.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/greaves/att_plate_iron_greaves.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/greaves/att_plate_bronze_greaves.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="shield" />
+			<SLOT name="weapon_1" attach_point="weapon_01" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/weapons/att_axe_dane.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_2" attach_point="weapon_01,weapon_02" />
+			<SLOT name="weapon_3" attach_point="weapon_04" />
+			<SLOT name="weapon_4" attach_point="weapon_05" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="shields" >
+		<VARIANT_MESH>
+		<SLOT name="boss" >
+		</SLOT> 	
+		</VARIANT_MESH>
+	</SLOT> 	
+</VARIANT_MESH>

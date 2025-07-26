@@ -1,0 +1,53 @@
+<VARIANT_MESH>
+	<SLOT name="bodyparts" >
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/horse/bodyparts/default_horse_a.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/horse/bodyparts/default_horse_a.rigid_model_v2" >
+			<SLOT name="bridle" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\horse\saddles/reins.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="saddle" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\horse\armour/aum_dra_transoxian_cav_horse_armour.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="reins" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/horse/bodyparts/default_horse_b.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/horse/bodyparts/default_horse_a.rigid_model_v2" >
+			<SLOT name="bridle" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\horse\saddles/reins.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="saddle" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\horse\armour/aum_dra_transoxian_cav_horse_armour.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="reins" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\horse\bridles/celtic_bridle_01.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/horse/bodyparts/default_horse_c.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/horse/bodyparts/default_horse_a.rigid_model_v2" >
+			<SLOT name="bridle" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\horse\saddles/reins.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="saddle" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\horse\armour/aum_dra_transoxian_cav_horse_armour.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="reins" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/horse/bodyparts/default_horse_d.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/horse/bodyparts/default_horse_a.rigid_model_v2" >
+			<SLOT name="bridle" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\horse\saddles/reins.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="saddle" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\horse\armour/aum_dra_transoxian_cav_horse_armour.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="reins" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/horse/bodyparts/default_horse_e.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/horse/bodyparts/default_horse_a.rigid_model_v2" >
+			<SLOT name="bridle" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\horse\saddles/reins.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="saddle" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\horse\armour/aum_dra_transoxian_cav_horse_armour.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="reins" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\horse\bridles/celtic_bridle_01.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

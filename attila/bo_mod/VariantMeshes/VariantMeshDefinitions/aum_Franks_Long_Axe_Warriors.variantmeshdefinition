@@ -1,0 +1,89 @@
+<VARIANT_MESH>
+	<SLOT name="base" >
+		<VARIANT_MESH>
+			<SLOT name="skin" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/skin/att_ger_light_cut_02b.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/skin/att_ger_light_cut_02a.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="hair" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/hair_beards/att_barb_dark_short_helmet_long.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/hair_beards/att_barb_dark_short_helmet_short.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/hair_beards/att_barb_dark_long_helmet_short.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/hair_beards/att_barb_dark_long_helmet_long.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/hair_beards/att_barb_light_long_helmet_short.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="props" />
+			<SLOT name="accessories" />
+			<SLOT name="helmets" >
+				<VARIANT_MESH>
+					<SLOT name="helmets" >
+						<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/generic_spangenhelm_elite.rigid_model_v2" >
+							<SLOT name="top_crests" attach_point="crest_centre" >
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/horse_hair_knot.rigid_model_v2" />
+							</SLOT>
+							<SLOT name="side_crests" />
+							<SLOT name="cheeks" >
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/cheek_half_plate_elite.rigid_model_v2" />
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/cheek_half_plate_elite_bronze.rigid_model_v2" />
+							</SLOT>
+							<SLOT name="face" />
+							<SLOT name="neck" />
+						</VARIANT_MESH>
+					</SLOT>
+				</VARIANT_MESH>
+				<VARIANT_MESH>
+					<SLOT name="helmets" >
+						<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/generic_spangenhelm_heavy.rigid_model_v2" >
+							<SLOT name="top_crests" attach_point="crest_centre" >
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/horse_hair_knot.rigid_model_v2" />
+							</SLOT>
+							<SLOT name="side_crests" />
+							<SLOT name="cheeks" >
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/cheek_half_plate_elite.rigid_model_v2" />
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/cheek_half_plates.rigid_model_v2" />
+							</SLOT>
+							<SLOT name="face" />
+							<SLOT name="neck" />
+						</VARIANT_MESH>
+					</SLOT>
+				</VARIANT_MESH>
+				<VARIANT_MESH>
+					<SLOT name="helmets" >
+						<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/generic_spangenhelm_light.rigid_model_v2" >
+							<SLOT name="top_crests" attach_point="crest_centre" >
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/horse_hair_knot.rigid_model_v2" />
+							</SLOT>
+							<SLOT name="side_crests" />
+							<SLOT name="cheeks" >
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/cheek_half_plate_elite.rigid_model_v2" />
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/cheek_half_plates.rigid_model_v2" />
+							</SLOT>
+							<SLOT name="face" />
+							<SLOT name="neck" />
+						</VARIANT_MESH>
+					</SLOT>
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="clothing" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/clothing/att_german_heavy_mail_sleeves_elite.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/clothing/att_german_heavy_mail_sleeves.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/clothing/att_german_heavy_mail_sleevesless.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/clothing/att_german_heavy_iron_lamellar_elite.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/clothing/att_german_heavy_lamellar_sleeves_elite.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/clothing/att_german_heavy_lamellar_sleeves_elite_long.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="cloaks" probability ="0.7" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/cloak/att_generic_elite_armour.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="vambraces" />
+			<SLOT name="greaves" />
+			<SLOT name="shield" />
+			<SLOT name="weapon_1" attach_point="weapon_01" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/weapons/att_axe_dane.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_2" attach_point="weapon_02" />
+			<SLOT name="weapon_3" attach_point="weapon_04" />
+			<SLOT name="weapon_4" attach_point="weapon_05" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

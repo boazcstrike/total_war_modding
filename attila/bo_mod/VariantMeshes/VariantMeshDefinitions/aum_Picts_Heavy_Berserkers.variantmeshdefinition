@@ -1,0 +1,135 @@
+<VARIANT_MESH>
+	<SLOT name="base" >
+		<VARIANT_MESH>
+			<SLOT name="skin" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/skin/aum_att_celts_warpaint_woad.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="hair" >
+				<VARIANT_MESH>
+					<SLOT name="beard" probability ="0.8" >
+						<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/beards/barbarian_beard_01a.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+							<TINT red="0.098039" green="0.082353" blue="0.07451" random_range="0.0" />
+						</VARIANT_MESH>
+						<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/beards/barbarian_beard_01b.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+							<TINT red="0.098039" green="0.082353" blue="0.07451" random_range="0.0" />
+						</VARIANT_MESH>
+						<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/beards/barbarian_beard_01c.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+							<TINT red="0.098039" green="0.082353" blue="0.07451" random_range="0.0" />
+						</VARIANT_MESH>
+						<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/beards/barbarian_beard_02f.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+							<TINT red="0.098039" green="0.082353" blue="0.07451" random_range="0.0" />
+						</VARIANT_MESH>
+					</SLOT>
+					<SLOT name="hair" >
+						<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_06b_tinted.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+							<TINT red="0.098039" green="0.082353" blue="0.07451" random_range="0.1" />
+						</VARIANT_MESH>
+						<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_06c_tinted.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+							<TINT red="0.098039" green="0.082353" blue="0.07451" random_range="0.1" />
+						</VARIANT_MESH>
+						<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_06d_tinted.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+							<TINT red="0.098039" green="0.082353" blue="0.07451" random_range="0.1" />
+						</VARIANT_MESH>
+						<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_06e_tinted.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+							<TINT red="0.098039" green="0.082353" blue="0.07451" random_range="0.1" />
+						</VARIANT_MESH>
+					</SLOT>
+				</VARIANT_MESH>
+				<VARIANT_MESH>
+					<SLOT name="styles" >
+						<VARIANT_MESH>
+							<SLOT name="beard" probability ="0.8" >
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/beards/barbarian_beard_02g.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+									<TINT red="0.486275" green="0.419608" blue="0.247059" random_range="0.1" />
+								</VARIANT_MESH>
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/beards/barbarian_beard_02i.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+									<TINT red="0.486275" green="0.419608" blue="0.247059" random_range="0.1" />
+								</VARIANT_MESH>
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/beards/barbarian_beard_02j.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+									<TINT red="0.486275" green="0.419608" blue="0.247059" random_range="0.1" />
+								</VARIANT_MESH>
+							</SLOT>
+							<SLOT name="hair" >
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_06a_tinted.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+									<TINT red="0.486275" green="0.419608" blue="0.247059" random_range="0.1" />
+								</VARIANT_MESH>
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_06b_tinted.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+									<TINT red="0.486275" green="0.419608" blue="0.247059" random_range="0.1" />
+								</VARIANT_MESH>
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_06c_tinted.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+									<TINT red="0.486275" green="0.419608" blue="0.247059" random_range="0.1" />
+								</VARIANT_MESH>
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_06d_tinted.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+									<TINT red="0.486275" green="0.419608" blue="0.247059" random_range="0.1" />
+								</VARIANT_MESH>
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_06e_tinted.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+									<TINT red="0.486275" green="0.419608" blue="0.247059" random_range="0.1" />
+								</VARIANT_MESH>
+							</SLOT>
+						</VARIANT_MESH>
+						<VARIANT_MESH>
+							<SLOT name="beard" probability ="0.8" >
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/beards/barbarian_beard_02g.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+									<TINT red="0.345098" green="0.25098" blue="0.152941" random_range="0.1" />
+									<TINT red="0.317647" green="0.203922" blue="0.090196" random_range="0.1" />
+								</VARIANT_MESH>
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/beards/barbarian_beard_02i.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+									<TINT red="0.345098" green="0.25098" blue="0.152941" random_range="0.1" />
+									<TINT red="0.317647" green="0.203922" blue="0.090196" random_range="0.1" />
+								</VARIANT_MESH>
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/beards/barbarian_beard_02j.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+									<TINT red="0.345098" green="0.25098" blue="0.152941" random_range="0.1" />
+									<TINT red="0.317647" green="0.203922" blue="0.090196" random_range="0.1" />
+								</VARIANT_MESH>
+							</SLOT>
+							<SLOT name="hair" >
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_06a_tinted.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+									<TINT red="0.345098" green="0.25098" blue="0.152941" random_range="0.1" />
+									<TINT red="0.317647" green="0.203922" blue="0.090196" random_range="0.1" />
+								</VARIANT_MESH>
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_06b_tinted.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+									<TINT red="0.345098" green="0.25098" blue="0.152941" random_range="0.1" />
+									<TINT red="0.317647" green="0.203922" blue="0.090196" random_range="0.1" />
+								</VARIANT_MESH>
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_06c_tinted.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+									<TINT red="0.345098" green="0.25098" blue="0.152941" random_range="0.1" />
+									<TINT red="0.317647" green="0.203922" blue="0.090196" random_range="0.1" />
+								</VARIANT_MESH>
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_06d_tinted.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+									<TINT red="0.345098" green="0.25098" blue="0.152941" random_range="0.1" />
+									<TINT red="0.317647" green="0.203922" blue="0.090196" random_range="0.1" />
+								</VARIANT_MESH>
+								<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_06e_tinted.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" >
+									<TINT red="0.345098" green="0.25098" blue="0.152941" random_range="0.1" />
+									<TINT red="0.317647" green="0.203922" blue="0.090196" random_range="0.1" />
+								</VARIANT_MESH>
+							</SLOT>
+						</VARIANT_MESH>
+					</SLOT>
+				</VARIANT_MESH>
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/hair_beards/att_barb_dark_celtic_full.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="props" />
+			<SLOT name="accessories" />
+			<SLOT name="helmets" />
+			<SLOT name="clothing" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/trousers/att_nordic_patterned_full.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/trousers/att_roman_bound_cloth_legs_full.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="cloaks" />
+			<SLOT name="vambraces" probability ="0.8" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/bracers/att_leather_fur_dark.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/bracers/att_leather_fur_light.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/bracers/att_leather_long_ornate_dark.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="greaves" />
+			<SLOT name="shield" />
+			<SLOT name="weapon_1" attach_point="weapon_01" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/weapons/att_axe_dane.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_2" attach_point="weapon_02" />
+			<SLOT name="weapon_3" attach_point="weapon_04" />
+			<SLOT name="weapon_4" attach_point="weapon_05" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

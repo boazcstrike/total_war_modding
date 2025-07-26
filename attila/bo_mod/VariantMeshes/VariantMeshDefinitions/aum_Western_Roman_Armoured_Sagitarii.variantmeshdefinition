@@ -1,0 +1,133 @@
+<VARIANT_MESH>
+	<SLOT name="base" >
+		<VARIANT_MESH>
+			<SLOT name="skin" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_roman_07_skin01_cut_2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_roman_11_skin01_cut_2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_roman_14_skin01_cut_2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_roman_15_skin01_cut_2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_germanic_04_skin01_cut_2.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="hair" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/crossbelt_pouch_1.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="props" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/att_bel_roman_shoe_03_cut_01.rigid_model_v2" >
+					<TINT red="1.0" green="1.0" blue="1.0" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/att_bel_roman_shoe_04_cut_01.rigid_model_v2" >
+					<TINT red="1.0" green="1.0" blue="1.0" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="accessories" />
+			<SLOT name="helmets" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\helmets/aum_drevy_spangenhelms_full_recoloured_plates.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="clothing" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\tunics/aum_dram_sag_mail_tunic.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\tunics/aum_dram_sag_mail_tuni2.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="cloaks" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\cloak\generic_simple_cloak_01/generic_simple_cloak_02.rigid_model_v2" >
+					<TINT red="0.301961" green="0.086275" blue="0.098039" random_range="0.0" />
+					<TINT red="0.176471" green="0.039216" blue="0.039216" random_range="0.0" />
+					<TINT red="0.47451" green="0.05098" blue="0.058824" random_range="0.0" />
+					<TINT red="0.098039" green="0.047059" blue="0.019608" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="vambraces" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\props/greek_quiver.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\props/eastern_quiver.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="greaves" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\trousers/cloth_leg_bound_01_cut_socks.rigid_model_v2" >
+					<TINT red="0.14902" green="0.043137" blue="0.047059" random_range="0.0" />
+					<TINT red="0.176471" green="0.039216" blue="0.039216" random_range="0.0" />
+					<TINT red="0.015686" green="0.07451" blue="0.207843" random_range="0.0" />
+					<TINT red="0.196078" green="0.019608" blue="0.023529" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\trousers/cloth_legs_heavy_cut_03.rigid_model_v2" >
+					<TINT red="0.254902" green="0.019608" blue="0.023529" random_range="0.0" />
+					<TINT red="0.176471" green="0.039216" blue="0.039216" random_range="0.0" />
+					<TINT red="0.070588" green="0.054902" blue="0.05098" random_range="0.0" />
+					<TINT red="0.392157" green="0.392157" blue="0.392157" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\trousers/cloth_legs_heavy_cut_03.rigid_model_v2" >
+					<TINT red="0.415686" green="0.415686" blue="0.415686" random_range="0.0" />
+					<TINT red="0.254902" green="0.086275" blue="0.031373" random_range="0.0" />
+					<TINT red="0.254902" green="0.019608" blue="0.023529" random_range="0.0" />
+					<TINT red="0.14902" green="0.152941" blue="0.113725" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="shield" />
+			<SLOT name="weapon_1" attach_point="weapon_01" />
+			<SLOT name="weapon_2" attach_point="weapon_02" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\weapons/att_bel_ring_sword_b.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\weapons/att_bel_ring_sword_a.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\weapons/att_bel_ring_sword_c.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="weapon_3" attach_point="weapon_04" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/weapons/att_bow.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_4" attach_point="weapon_05" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/weapons/att_arrow.VariantMeshDefinition" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH>
+			<SLOT name="skin" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_lb_head_a_cine_cut_2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_lb_general_cine_cut_2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_nordic_09_skin01_cut_2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_roman_11_skin01_cut_2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_roman_16_skin01_cut_2.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="hair" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/crossbelt_pouch_1.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="props" />
+			<SLOT name="accessories" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\greaves/iron_greaves.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="helmets" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\helmets/aum_drevy_spangenhelms_full_recoloured_plates.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="clothing" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\tunics/aum_dram_sag_mail_tuni2.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\tunics/aum_dram_sag_mail_tunic.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="cloaks" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\cloak\generic_simple_cloak_01/generic_simple_cloak_02.rigid_model_v2" >
+					<TINT red="0.254902" green="0.019608" blue="0.023529" random_range="0.0" />
+					<TINT red="0.254902" green="0.086275" blue="0.031373" random_range="0.0" />
+					<TINT red="0.176471" green="0.039216" blue="0.039216" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="vambraces" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\props/greek_quiver.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\props/eastern_quiver.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="greaves" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\trousers/eastern_trousers_02_cuta.rigid_model_v2" >
+					<TINT red="0.254902" green="0.086275" blue="0.031373" random_range="0.0" />
+					<TINT red="0.254902" green="0.019608" blue="0.023529" random_range="0.0" />
+					<TINT red="0.015686" green="0.07451" blue="0.207843" random_range="0.0" />
+					<TINT red="0.070588" green="0.054902" blue="0.05098" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="shield" />
+			<SLOT name="weapon_1" attach_point="weapon_01" />
+			<SLOT name="weapon_2" attach_point="weapon_02" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\weapons/att_bel_ring_sword_c.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\weapons/att_celts_pictish_sword_b.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\weapons/att_bel_ring_sword_b.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\weapons/att_celts_pictish_sword_a.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="weapon_3" attach_point="weapon_04" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/weapons/att_bow.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_4" attach_point="weapon_05" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/weapons/att_arrow.VariantMeshDefinition" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

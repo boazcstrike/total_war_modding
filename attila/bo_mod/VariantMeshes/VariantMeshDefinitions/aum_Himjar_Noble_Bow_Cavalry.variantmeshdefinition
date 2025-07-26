@@ -1,0 +1,87 @@
+<VARIANT_MESH>
+	<SLOT name="base" >
+		<VARIANT_MESH>
+			<SLOT name="skin" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_eastern_05_cut_2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_eastern_04_cut_2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_eastern_01_cut_2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_eastern_03_cut_2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_eastern_01_cut_2.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="hair" probability ="0.7" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/att_bel_visigoth_leader_beard.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/att_bel_kingly_beard.rigid_model_v2" >
+					<TINT red="0.066667" green="0.058824" blue="0.05098" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/barbarian_beard_01g_black_lod1.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="prop_1" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/att_es_pleated_sash_plain.rigid_model_v2" >
+					<TINT red="0.407843" green="0.258824" blue="0.078431" random_range="0.0" />
+					<TINT red="0.294118" green="0.141176" blue="0.098039" random_range="0.0" />
+					<TINT red="0.14902" green="0.043137" blue="0.047059" random_range="0.0" />
+					<TINT red="0.070588" green="0.054902" blue="0.05098" random_range="0.0" />
+					<TINT red="0.14902" green="0.152941" blue="0.113725" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/desert_cloak_01.rigid_model_v2" >
+					<TINT red="0.129412" green="0.019608" blue="0.019608" random_range="0.0" />
+					<TINT red="0.407843" green="0.258824" blue="0.078431" random_range="0.0" />
+					<TINT red="0.227451" green="0.215686" blue="0.196078" random_range="0.0" />
+					<TINT red="0.070588" green="0.054902" blue="0.05098" random_range="0.0" />
+					<TINT red="0.14902" green="0.152941" blue="0.113725" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="prop_2" probability ="0.5" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/belt_04_mid.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/belt_03_cataphract.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/dra_rm_belt_03_cataphract.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/eastern_belt_02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/nomadic_belt_04_large.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="prop_3" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\trousers/att_bel_toubia_leggings_2_cut_01.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\trousers/att_es_eastern_noble_trousers_a.rigid_model_v2"  mask0="1"  mask1="2"  mask2="0" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\trousers/att_bel_toubia_leggings_3_cut_01.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\trousers/att_es_eastern_noble_trousers_a.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="accessories" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/DRA_DECO_Arab_face_Tessu_op.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/drama_red_face_tessuto_open.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="helmets" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/eastern_ridge_helmet_02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/eastern_ridge_helmet_01.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="clothing" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/dra_est_himyar2_overcoat.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/dra_est_himyar1_overcoat.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="cloaks" />
+			<SLOT name="vambraces" />
+			<SLOT name="greaves" />
+			<SLOT name="shield" attach_point="weapon_03" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/round_curved_reinforced_shield.rigid_model_v2"  decal_diffuse="variantmeshes/_variantmodels/man/patterns/eastern/Schield_AUM_Drama_Arab_Him_round_diffuse"  decal_normal="variantmeshes/_variantmodels/man/patterns/blank/decal_normal"  imposter_model="variantmeshes/_variantmodels/man/shield/round_curved_shield.rigid_model_v2" >
+					<TINT red="0.407843" green="0.258824" blue="0.078431" random_range="0.0" />
+					<TINT red="0.254902" green="0.019608" blue="0.023529" random_range="0.0" />
+					<TINT red="0.521569" green="0.533333" blue="0.443137" random_range="0.0" />
+					<TINT red="0.14902" green="0.152941" blue="0.113725" random_range="0.0" />
+					<TINT red="0.039216" green="0.078431" blue="0.054902" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="boss" attach_point="weapon_03" />
+			<SLOT name="weapon_1" attach_point="weapon_01" />
+			<SLOT name="weapon_2" attach_point="weapon_02" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\weapons/att_shotelai_01.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\weapons/att_shotelai_02.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="weapon_3" attach_point="weapon_04" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\weapons/att_bow_reflex.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\weapons/att_bow_reflex_roman.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_4" attach_point="weapon_05" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\weapons/att_arrow_bolt.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\weapons/att_arrow.VariantMeshDefinition" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

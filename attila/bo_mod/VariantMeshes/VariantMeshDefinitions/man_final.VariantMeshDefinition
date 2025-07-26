@@ -1,0 +1,32 @@
+<VARIANT_MESH>
+	<SLOT name="base" >
+		<VARIANT_MESH>
+			<SLOT name="skin" >
+			</SLOT>
+			<SLOT name="facial_hair" >
+			</SLOT>
+			<SLOT name="props" >
+			</SLOT>			
+			<SLOT name="helmets" >
+			</SLOT>
+			<SLOT name="clothing" >
+			</SLOT> 	
+			<SLOT name="cloaks" >
+			</SLOT>
+			<SLOT name="greaves" >
+			</SLOT>
+			<SLOT name="shield" >
+			</SLOT> 	
+			<SLOT name="weapon_1" >
+			</SLOT>
+			<SLOT name="weapon_2" >
+			</SLOT>
+			<SLOT name="weapon_3" >
+			</SLOT>
+			<SLOT name="weapon_4" >
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT> 
+</VARIANT_MESH>	
+
+

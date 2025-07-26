@@ -1,0 +1,52 @@
+<VARIANT_MESH>
+	<SLOT name="base" >
+		<VARIANT_MESH>
+			<SLOT name="skin" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_nom_heavy_cut_02b.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="hair" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/hair_beards/att_hun_short_helmet.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/hair_beards/att_hun_short_beards.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="props" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/steppe_tunic_04_cut_05a.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="accessories" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/att_nomadic_patterned_elite_trousers_greaves.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/att_nomadic_trousers_greaves.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/att_nomadic_trousers_wide_greaves.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="helmets" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/helmets/AUM_DRA_scalecap_iron.variantmeshdefinition" />			
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/helmets/att_nomadic_iron_lamellar.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="clothing" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/armour/Drama_ATTIL.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/armour/DRA_AUM_ATIL.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="cloaks" probability ="0.5" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/cloak/att_leather_mantle_armour.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="vambraces" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/bracers/iron_DRAmellar_bracers.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="greaves" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/greaves/AUM_DRAste_greav.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="shield" attach_point="weapon_03" />
+			<SLOT name="boss" attach_point="weapon_03" />
+			<SLOT name="weapon_1" attach_point="weapon_01" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/weapons/att_roman_lance_basic.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_2" attach_point="weapon_02" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/weapons/att_sword_east.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_3" attach_point="weapon_04" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/weapons/att_bow_reflex.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_4" attach_point="weapon_05" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/weapons/att_arrow.VariantMeshDefinition" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

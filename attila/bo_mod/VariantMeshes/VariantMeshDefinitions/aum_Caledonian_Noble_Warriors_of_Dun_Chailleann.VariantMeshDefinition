@@ -1,0 +1,80 @@
+<VARIANT_MESH>
+	<SLOT name="base" >
+		<VARIANT_MESH>
+			<SLOT name="male" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/skin/att_ger_heavy_cut_02b.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="hair" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/drama_silver_face_mail_open.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="props" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\trousers/celtic_tartan_trousers_01_cut_02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\trousers/celtic_basic_trousers_02_cut.rigid_model_v2" >
+					<TINT red="0.086275" green="0.027451" blue="0.011765" random_range="0.0" />
+					<TINT red="0.043137" green="0.070588" blue="0.058824" random_range="0.0" />
+					<TINT red="0.035294" green="0.047059" blue="0.015686" random_range="0.0" />
+					<TINT red="0.117647" green="0.152941" blue="0.207843" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\trousers/cloth_legs_light_01_cut_02.rigid_model_v2" >
+					<TINT red="0.015686" green="0.07451" blue="0.207843" random_range="0.0" />
+					<TINT red="0.254902" green="0.086275" blue="0.031373" random_range="0.0" />
+					<TINT red="0.070588" green="0.113725" blue="0.058824" random_range="0.0" />
+					<TINT red="0.254902" green="0.019608" blue="0.023529" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="accessories" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/dr_coli2_tar_fascia.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/dra_colin_sash.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/dr_colin_tar_fascia.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="helmets" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generic_spangenhelm_heavy.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generi_dra_poor_elm.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generic_spangenhelm_elite.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/eastern_ridge_helmet_01.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generic_spangenhelm_light.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="clothing" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/tart_dra_tun_gna_03_cut02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/tart_dra_tun_nev_03_cut02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/tartan_dra_tunic_03_cut02.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="cloaks" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\armour/light_honormail_armdra_top_down_honoriani.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="vambraces" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/nordic_leather_belt_01b.rigid_model_v2" >
+					<TINT red="0.133333" green="0.043137" blue="0.015686" random_range="0.0" />
+					<TINT red="0.019608" green="0.023529" blue="0.035294" random_range="0.0" />
+					<TINT red="0.082353" green="0.003922" blue="0.003922" random_range="0.0" />
+					<TINT red="0.043137" green="0.019608" blue="0.0" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="greaves" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/barbarian_beard_02i_drkbrown_lod1.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/barbarian_beard_02i_brown_lod1.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/barbarian_beard_02j.rigid_model_v2" >
+					<TINT red="0.254902" green="0.101961" blue="0.027451" random_range="0.0" />
+					<TINT red="0.596078" green="0.215686" blue="0.101961" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/att_celts_pict_leader_moustache.rigid_model_v2" >
+					<TINT red="1.0" green="1.0" blue="1.0" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/barbarian_beard_02f.rigid_model_v2" >
+					<TINT red="0.172549" green="0.054902" blue="0.019608" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="shield" attach_point="weapon_03" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/round_large_curved_shield.rigid_model_v2"  decal_diffuse="variantmeshes/_variantmodels/man/patterns/celtic/Scutum_Caledonian_Round_diffuse"  decal_normal="variantmeshes/_variantmodels/man/patterns/blank/decal_normal"  imposter_model="variantmeshes/_variantmodels/man/shield/round_large_curved_shield.rigid_model_v2" >
+					<TINT red="0.231373" green="0.188235" blue="0.027451" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="weapon_1" attach_point="weapon_01" />
+			<SLOT name="weapon_2" attach_point="weapon_02" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/weapons/att_celts_pictish_swords.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_3" attach_point="weapon_04" />
+			<SLOT name="weapon_4" attach_point="weapon_05" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

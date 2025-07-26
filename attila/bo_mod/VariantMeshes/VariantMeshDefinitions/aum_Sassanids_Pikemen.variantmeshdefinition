@@ -1,0 +1,68 @@
+<VARIANT_MESH>
+	<SLOT name="base" >
+		<VARIANT_MESH>
+			<SLOT name="skin" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/skin/att_est_light_cut_02b.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/skin/att_est_light_cut_02a.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="hair" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/hair_beards/att_eas_long_helmet_dark.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/hair_beards/att_eas_short_helmet_dark.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/hair_beards/att_eas_long_helmet_light.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/hair_beards/att_eas_short_helmet_light.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="props" />
+			<SLOT name="accessories" probability ="0.8" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/accessories/att_eastern_belts_bronze.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/accessories/att_eastern_belts_iron.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/accessories/att_nomadic_ornate_belts.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/accessories/att_germanic_belts_tight.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="helmets" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/helmets/att_eastern_spangenhelm_conical.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/helmets/att_eastern_spangenhelm.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/helmets/att_eastern_ridge.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/helmets/cha_islamic_wrap_helms.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="clothing" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/clothing/att_eastern_light_leather_lamellar.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/clothing/att_eastern_light_leather_lamellar_basic.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/clothing/att_eastern_light_leather_lamellar_vam.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="cloaks" />
+			<SLOT name="vambraces" />
+			<SLOT name="greaves" />
+			<SLOT name="shield" attach_point="weapon_03" >
+				<VARIANT_MESH>
+					<SLOT name="shields" >
+						<VARIANT_MESH model="VariantMeshes/_VariantModels/man/shield/round_small_curved_shield.rigid_model_v2"
+decal_diffuse="VariantMeshes/_VariantModels/man/patterns/eastern/eastern_round_01"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal"  imposter_model="VariantMeshes/_VariantModels/man/shield/round_small_curved_shield.rigid_model_v2" />
+					</SLOT>
+					<SLOT name="boss" attach_point="weapon_03" >
+						<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/bosses/att_small_curved.VariantMeshDefinition" />
+						<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/bosses/att_small_curved_eastern.VariantMeshDefinition" />
+					</SLOT>
+				</VARIANT_MESH>
+				<VARIANT_MESH>
+					<SLOT name="shields" >
+						<VARIANT_MESH model="VariantMeshes/_VariantModels/man/shield/round_small_curved_reinforced_shield.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/eastern/eastern_round_01"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal"  imposter_model="VariantMeshes/_VariantModels/man/shield/round_small_curved_reinforced_shield.rigid_model_v2" >
+							<TINT red="0.180392" green="0.05098" blue="0.247059" random_range="0.1" />
+						</VARIANT_MESH>
+					</SLOT>
+					<SLOT name="boss" attach_point="weapon_03" >
+						<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/bosses/att_small_curved.VariantMeshDefinition" />
+						<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/bosses/att_small_curved_eastern.VariantMeshDefinition" />
+					</SLOT>
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="weapon_1" attach_point="weapon_01" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/weapons/att_pike.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_2" attach_point="weapon_02" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/weapons/att_dagger.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_3" attach_point="weapon_04" />
+			<SLOT name="weapon_4" attach_point="weapon_05" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

@@ -1,0 +1,11 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH>	
+			<SLOT name="prop_1" />
+			<SLOT name="prop_2" />
+			<SLOT name="prop_3" />
+			<SLOT name="prop_4" />
+			<SLOT name="prop_5" />
+		</VARIANT_MESH>
+	</SLOT> 
+</VARIANT_MESH>	

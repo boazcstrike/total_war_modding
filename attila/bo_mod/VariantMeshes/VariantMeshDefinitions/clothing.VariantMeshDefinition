@@ -1,0 +1,12 @@
+<VARIANT_MESH>
+	<SLOT name="tunics" >
+	<VARIANT_MESH>
+		<SLOT name="armour" >
+		</SLOT> 
+		<SLOT name="belts" >
+		</SLOT> 
+		<SLOT name="trousers" >
+		</SLOT> 
+	</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>	

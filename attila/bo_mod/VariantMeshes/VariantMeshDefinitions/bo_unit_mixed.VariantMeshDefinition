@@ -6,13 +6,10 @@
 				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/skin/att_rom_heavy_cut_02b.VariantMeshDefinition" />
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_est_heavy_cut_01a.VariantMeshDefinition" />
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_est_heavy_cut_01b.VariantMeshDefinition" />
-				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_est_heavy_cut_02a.VariantMeshDefinition" />
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_est_heavy_cut_02b.VariantMeshDefinition" />
-				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_ger_heavy_cut_01a.VariantMeshDefinition" />
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_ger_heavy_cut_01b.VariantMeshDefinition" />
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_ger_heavy_cut_02a.VariantMeshDefinition" />
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_ger_heavy_cut_02b.VariantMeshDefinition" />
-				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_ger_heavy_cut_03a.VariantMeshDefinition" />
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_ger_heavy_cut_04.VariantMeshDefinition" />
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_nom_heavy_cut_01a.VariantMeshDefinition" />
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_nom_heavy_cut_01b.VariantMeshDefinition" />
@@ -22,8 +19,6 @@
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_nor_heavy_cut_01b.VariantMeshDefinition" />
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_nor_heavy_cut_02a.VariantMeshDefinition" />
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_nor_heavy_cut_02b.VariantMeshDefinition" />
-				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_nor_heavy_cut_03a.VariantMeshDefinition" />
-				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_nor_heavy_cut_03b.VariantMeshDefinition" />
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_nordic_heavy.VariantMeshDefinition" />
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_rom_heavy_cut_01a.VariantMeshDefinition" />
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\skin/att_rom_heavy_cut_01b.VariantMeshDefinition" />
@@ -51,23 +46,41 @@
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\clothing/att_roman_heavy_lamellar.VariantMeshDefinition" />
 			</SLOT>
 			<SLOT name="cloaks" >
-				<VARIANT_MESH model="variantmeshes\_variantmodels\man\cloak\alamannic_cloak/alamannic_cloak_02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\cloak\alamannic_cloak/alamannic_cloak_02.rigid_model_v2" >
+					<TINT red="0.086275" green="0.0" blue="0.0" random_range="0.0" />
+					<TINT red="0.066667" green="0.031373" blue="0.0" random_range="0.0" />
+				</VARIANT_MESH>
 				<VARIANT_MESH model="variantmeshes\_variantmodels\man\cloak\alamannic_cloak/alamannic_cloak_03.rigid_model_v2" />
-				<VARIANT_MESH model="variantmeshes\_variantmodels\man\cloak\mantles/wolf_mantle.rigid_model_v2" />
-				<VARIANT_MESH model="variantmeshes\_variantmodels\man\cloak\generic_elite_cloak_01/generic_elite_cloak_armour_01.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\cloak\generic_elite_cloak_01/generic_elite_cloak_armour_01.rigid_model_v2" >
+					<TINT red="0.023529" green="0.0" blue="0.035294" random_range="0.0" />
+				</VARIANT_MESH>
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\cloak/att_frankish_armour.VariantMeshDefinition" />
-				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\cloak/att_wolf_mantle.VariantMeshDefinition" />
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\cloak/thracian_cloaks.VariantMeshDefinition" />
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\cloak/att_frankish_cav_armour.VariantMeshDefinition" />
 			</SLOT>
 			<SLOT name="vambraces" />
 			<SLOT name="greaves" />
 			<SLOT name="shield" attach_point="weapon_03" >
-				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/nordic/nor_viking_round_08_diffuse" />
 				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/celtic/Scutum_Longobardorum_round_diffuse" />
-				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/celtic/Scutum_Caledonian_Round_diffuse" />
-				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/celtic/att_celts_decal_diffuse_1" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/roman/early_7_diffuse" >
+					<TINT red="0.0" green="0.0" blue="0.0" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/thracian/alaniface" />
 				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/nordic/nor_viking_round_01_diffuse" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/sarmatian/Drama_Sarmatian_Tribal_Round_diffuse" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/celtic/att_celts_pict_square_shield_02_decals" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/celtic/att_celts_pict_square_shield_02_decals" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/thracian/decal_diffuse_05" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/square/pict_square_shield_06" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/square/pict_square_shield_08" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/roman/armoured_cohort_1_diffuse" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/roman/eagle_1_diffuse" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/roman/praetorian_guard_diffuse" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/roman/legionary_cohort_diffuse"  decal_normal="VariantMeshes/_variantmodels/man/patterns/roman/legionary_cohort_normal" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/roman/early_diffuse" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/roman/early_3_diffuse" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/roman/eagle_3_diffuse" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/roman_early_scutum.rigid_model_v2"  decal_diffuse="VariantMeshes/_variantmodels/man/patterns/roman/3c_roman_scutum_shield_borders" />
 			</SLOT>
 			<SLOT name="weapon_1" attach_point="weapon_01" />
 			<SLOT name="weapon_2" attach_point="weapon_02" >
@@ -82,9 +95,7 @@
 				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\weapons/att_celts_pictish_swords_blackened.VariantMeshDefinition" />
 			</SLOT>
 			<SLOT name="weapon_3" attach_point="weapon_04" />
-			<SLOT name="weapon_4" attach_point="weapon_05" >
-				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\weapons/att_javelin.VariantMeshDefinition" />
-			</SLOT>
+			<SLOT name="weapon_4" attach_point="weapon_05" />
 		</VARIANT_MESH>
 	</SLOT>
 </VARIANT_MESH>

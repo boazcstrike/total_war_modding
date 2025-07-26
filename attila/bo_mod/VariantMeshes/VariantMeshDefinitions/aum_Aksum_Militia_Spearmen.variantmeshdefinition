@@ -1,0 +1,98 @@
+<VARIANT_MESH>
+	<SLOT name="base" >
+		<VARIANT_MESH>
+			<SLOT name="skin" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_es_axum_head_c_02_cut_7.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_es_axum_head_a_02_cut_7.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_es_axum_head_c_01_cut_7.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_es_axum_head_c_03_cut_7.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="hair" probability ="0.7" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/att_es_faction_leader_beard.rigid_model_v2" >
+					<TINT red="0.070588" green="0.054902" blue="0.05098" random_range="0.0" />
+					<TINT red="0.4" green="0.196078" blue="0.133333" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/eastern_beard_03c_tinted.rigid_model_v2" >
+					<TINT red="0.098039" green="0.047059" blue="0.019608" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/eastern_beard_03d_tinted.rigid_model_v2" >
+					<TINT red="0.098039" green="0.047059" blue="0.019608" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="prop_1" />
+			<SLOT name="prop_2" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/eastern_bandana.rigid_model_v2" >
+					<TINT red="0.117647" green="0.007843" blue="0.007843" random_range="0.0" />
+					<TINT red="0.792157" green="0.780392" blue="0.741176" random_range="0.0" />
+					<TINT red="0.247059" green="0.117647" blue="0.082353" random_range="0.0" />
+					<TINT red="0.0" green="0.098039" blue="0.14902" random_range="0.0" />
+					<TINT red="0.023529" green="0.05098" blue="0.078431" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="prop_3" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\leg/drama_aum_pant_pinoc.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\leg/drama_aum_pant_pinot.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="accessories" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\cloak/att_es_gabi_1.rigid_model_v2" >
+					<TINT red="0.407843" green="0.258824" blue="0.078431" random_range="0.0" />
+					<TINT red="0.47451" green="0.05098" blue="0.058824" random_range="0.0" />
+					<TINT red="0.117647" green="0.043137" blue="0.015686" random_range="0.0" />
+					<TINT red="0.070588" green="0.137255" blue="0.152941" random_range="0.0" />
+					<TINT red="0.07451" green="0.129412" blue="0.066667" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/att_es_pleated_sash_plain.rigid_model_v2" >
+					<TINT red="0.254902" green="0.019608" blue="0.023529" random_range="0.0" />
+					<TINT red="0.14902" green="0.043137" blue="0.047059" random_range="0.0" />
+					<TINT red="0.407843" green="0.258824" blue="0.078431" random_range="0.0" />
+					<TINT red="0.098039" green="0.047059" blue="0.019608" random_range="0.0" />
+					<TINT red="0.219608" green="0.070588" blue="0.0" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/desert_cloak_01.rigid_model_v2" >
+					<TINT red="0.254902" green="0.019608" blue="0.023529" random_range="0.0" />
+					<TINT red="0.4" green="0.196078" blue="0.133333" random_range="0.0" />
+					<TINT red="0.309804" green="0.192157" blue="0.058824" random_range="0.0" />
+					<TINT red="0.603922" green="0.2" blue="0.0" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="helmets" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\hair/eas_hair_04.rigid_model_v2" >
+					<TINT red="0.070588" green="0.054902" blue="0.05098" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\hair/eas_hair_07.rigid_model_v2" >
+					<TINT red="0.098039" green="0.078431" blue="0.078431" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\hair/eas_hair_01.rigid_model_v2" >
+					<TINT red="0.05098" green="0.019608" blue="0.0" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/gener1_dra_poro_elm.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generi_dra_poor_elm.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="clothing" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/dra_aks_tun_aum_01.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="cloaks" />
+			<SLOT name="vambraces" />
+			<SLOT name="greaves" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/att_bel_roman_shoe_03_cut_01.rigid_model_v2"  mask0="2"  mask2="0" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\leg/att_eastern_arab_shoes.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="shield" attach_point="weapon_03" >
+				<VARIANT_MESH>
+					<SLOT name="shields" >
+						<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\shield/att_wicker_round_shield.VariantMeshDefinition" />
+					</SLOT>
+					<SLOT name="boss" attach_point="weapon_03" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="weapon_1" attach_point="weapon_01" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\weapons/att_es_axum_counterweight_spear_cross.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\weapons/att_es_axum_counterweight_spear_diamond.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\weapons/att_es_axum_counterweight_spear_lalibela.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_2" attach_point="weapon_02" />
+			<SLOT name="weapon_3" attach_point="weapon_04" />
+			<SLOT name="weapon_4" attach_point="weapon_05" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

@@ -1,0 +1,16 @@
+<VARIANT_MESH>
+	<SLOT name="bodyparts">
+		<VARIANT_MESH>
+		<SLOT name="tusks">
+		</SLOT>
+		<SLOT name="armour">
+		</SLOT>
+		<SLOT name="tower">
+		</SLOT>
+		<SLOT name="blanket">
+		</SLOT>
+		<SLOT name="face">
+		</SLOT>
+	</VARIANT_MESH>
+	</SLOT> 
+</VARIANT_MESH>

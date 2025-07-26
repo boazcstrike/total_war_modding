@@ -1,0 +1,44 @@
+<VARIANT_MESH>
+	<SLOT name="skin" >
+		<VARIANT_MESH>
+			<SLOT name="hair" >
+			</SLOT>
+			<SLOT name="beard" >
+			</SLOT>
+			<SLOT name="prop_1" >
+			</SLOT>
+			<SLOT name="prop_2" >
+			</SLOT>
+			<SLOT name="helmets" >
+			<VARIANT_MESH>
+				<SLOT name="top_crests" >
+				</SLOT> 
+				<SLOT name="side_crests" >
+				</SLOT>
+			</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="tunics" >
+			<VARIANT_MESH>
+				<SLOT name="armour" >
+				</SLOT> 
+			</VARIANT_MESH>
+			</SLOT> 	
+			<SLOT name="cloaks" >
+			</SLOT>
+			<SLOT name="trousers" >
+			</SLOT>
+			<SLOT name="shield" >
+			</SLOT> 	
+			<SLOT name="weapon_1" >
+			</SLOT>
+			<SLOT name="weapon_2" >
+			</SLOT>
+			<SLOT name="weapon_3" >
+			</SLOT>
+			<SLOT name="weapon_4" >
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT> 
+</VARIANT_MESH>	
+
+

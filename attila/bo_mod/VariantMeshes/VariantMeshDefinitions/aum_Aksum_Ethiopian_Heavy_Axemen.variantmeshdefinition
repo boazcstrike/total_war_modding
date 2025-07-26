@@ -1,0 +1,126 @@
+<VARIANT_MESH>
+	<SLOT name="base" >
+		<VARIANT_MESH>
+			<SLOT name="skin" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_es_axum_head_a_02_cut_6.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_es_axum_head_c_01_cut_6.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_es_axum_head_c_03_cut_6.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_es_axum_head_b_02_cut_6.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="hair" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/barbarian_beard_01b.rigid_model_v2" >
+					<TINT red="0.101961" green="0.047059" blue="0.031373" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/eastern_beard_03d_tinted.rigid_model_v2" >
+					<TINT red="0.0" green="0.0" blue="0.0" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/att_es_faction_leader_beard.rigid_model_v2" >
+					<TINT red="0.0" green="0.0" blue="0.0" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/att_bel_visigoth_leader_beard.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="prop_1" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/dra_aks_tun_aum_01_cut_07a.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="prop_2" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/imp_east_spansildra_02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/imp_east_spangendra_02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\hair/att_es_axum_hair_01.rigid_model_v2" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\helmets/helmet_dra_croc_countpt_neckpadded_protection.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\helmets/helmet_dra_croc_countpt_neckpadded_protection.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="prop_3" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\greaves/steppe_leather_greaves.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="accessories" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/draks_skirt.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="helmets" />
+			<SLOT name="clothing" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/att_es_light_chainmail_undertunic.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/light_chainmail_armour_top_01_cut1.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="cloaks" />
+			<SLOT name="vambraces" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/eastern_belt_03.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/eastern_belt_01.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/eastern_belt_02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/belt_01_cataphract.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="greaves" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\leg/att_eastern_arab_shoes.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="shield" attach_point="weapon_03" >
+				<VARIANT_MESH>
+					<SLOT name="shields" >
+						<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/dra_aum_wicker_oval_shield_01.rigid_model_v2"  decal_diffuse="variantmeshes/_variantmodels/man/patterns/blank/decal_diffuse"  decal_normal="variantmeshes/_variantmodels/man/patterns/blank/decal_normal"  imposter_model="variantmeshes/_variantmodels/man/shield/eastern_wicker_oval_shield_01.rigid_model_v2" />
+					</SLOT>
+					<SLOT name="boss" attach_point="weapon_03" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="weapon_1" attach_point="weapon_01" />
+			<SLOT name="weapon_2" attach_point="weapon_02" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/weapons/att_axe_east.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_3" attach_point="weapon_04" />
+			<SLOT name="weapon_4" attach_point="weapon_05" />
+		</VARIANT_MESH>
+		<VARIANT_MESH>
+			<SLOT name="skin" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_es_axum_head_c_02_cut_2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_es_axum_head_a_01_cut_2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/att_es_axum_head_c_01_cut_2.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\skin/afr_headhands_base_skinmafrican5_shape32.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="hair" />
+			<SLOT name="prop_1" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\hair/roman_hair_01_cut.rigid_model_v2" >
+					<TINT red="0.070588" green="0.054902" blue="0.05098" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="prop_2" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\hair/att_es_axum_hair_01.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\hair/att_es_axum_hair_02.rigid_model_v2" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\helmets/helmet_dra_croc_countpt_neckpadded_protection.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\helmets/helmet_aum_aks_generic_poor_drama.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="prop_3" />
+			<SLOT name="accessories" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/draks_skirt.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="helmets" />
+			<SLOT name="clothing" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/light_chainmail_armour_top_01.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/light_chainmail_armour_top_01_cut1.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="cloaks" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/dra_aks_tun_aum_01_cut_07a.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="vambraces" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/eastern_belt_03.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/eastern_belt_02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/belt_01_cataphract.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="greaves" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\trousers/att_es_eastern_noble_trousers_a.rigid_model_v2" >
+					<TINT red="0.380392" green="0.4" blue="0.337255" random_range="0.0" />
+					<TINT red="0.407843" green="0.258824" blue="0.078431" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="shield" attach_point="weapon_03" >
+				<VARIANT_MESH>
+					<SLOT name="shields" >
+						<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/dra_aum_wicker_oval_shield_01.rigid_model_v2"  decal_diffuse="variantmeshes/_variantmodels/man/patterns/blank/decal_diffuse"  decal_normal="variantmeshes/_variantmodels/man/patterns/blank/decal_normal"  imposter_model="variantmeshes/_variantmodels/man/shield/eastern_wicker_oval_shield_01.rigid_model_v2" />
+					</SLOT>
+					<SLOT name="boss" attach_point="weapon_03" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="weapon_1" attach_point="weapon_01" />
+			<SLOT name="weapon_2" attach_point="weapon_02" >
+				<VARIANT_MESH_REFERENCE definition="VariantMeshes/_VariantModels/man/weapons/att_axe_east.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="weapon_3" attach_point="weapon_04" />
+			<SLOT name="weapon_4" attach_point="weapon_05" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

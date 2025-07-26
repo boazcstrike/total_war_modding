@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+	</SLOT>
+	<SLOT name="neck" >
+	</SLOT> 
+	<SLOT name="body" >
+	</SLOT> 
+</VARIANT_MESH>	
