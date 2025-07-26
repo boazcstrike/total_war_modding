@@ -46,3 +46,26 @@ Most of the assets are sourced from the following Steam Workshop items:
 - [Purpura Custodes V2](https://steamcommunity.com/sharedfiles/filedetails/?id=441128299)
 
 All rights belong to their respective creators. This work is non-commercial and intended solely for educational and modding purposes.
+
+
+#### more info
+
+in total war, primary missle weapon has alt_celctic_javelin_precursor, and the other doesnt have th precursor, what doe sit mean?
+
+
+ChatGPT said:
+In Total War, when a primary missile weapon has alt_celtic_javelin_precursor (or any _precursor variant), it means:
+
+That missile is thrown before engaging in melee.
+
+Key Behavior:
+Precursor javelins are thrown automatically when the unit charges or is charged.
+
+Non-precursor javelins require manual activation in ranged stance.
+
+Only one volley is thrown with precursor weapons.
+
+Used mainly by heavy infantry like Roman principes or Celtic warriors to soften up enemies before contact.
+
+Without precursor, the unit won't auto-throw on charge — you'd need to micro them to skirmish or stay ranged.
+
