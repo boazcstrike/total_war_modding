@@ -1,0 +1,22 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/gener1_dra_poro_elm.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" />
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" />
+			<SLOT name="face" />
+			<SLOT name="neck" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/dr_neck_triang_des.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generi_dra_poor_elm.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" />
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" />
+			<SLOT name="face" />
+			<SLOT name="neck" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/dr_neck_triang_des.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

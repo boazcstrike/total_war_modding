@@ -1,0 +1,30 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/inv_barbarian_agris_helmet/inv_barbarian_agris_helmet.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/inv_barbarian_agris_helmet/inv_barbarian_agris_helmet.rigid_model_v2" >
+			<SLOT name="top_crests" />
+			<SLOT name="side_crests" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/inv_barbarian_helmet_coolus/inv_barbarian_helmet_coolus.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/inv_barbarian_agris_helmet/inv_barbarian_agris_helmet.rigid_model_v2" >
+			<SLOT name="top_crests" />
+			<SLOT name="side_crests" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/inv_barbarian_agris_helmet/inv_barbarian_agris_helmet_nocrest.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/inv_barbarian_agris_helmet/inv_barbarian_agris_helmet.rigid_model_v2" >
+			<SLOT name="top_crests" />
+			<SLOT name="side_crests" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/inv_barbarian_helmet_coolus/inv_barbarian_helmet_coolus_nocrest.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/inv_barbarian_agris_helmet/inv_barbarian_agris_helmet.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/red_horsehair.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/white_horsehair.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/yellow_horsehair.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/red_horsehair_split_01.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/yellow_horsehair_split_01.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/inv_barbarian_helmet_tall_crest/inv_barbarian_helmet_tall_crest.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/inv_barbarian_agris_helmet/inv_barbarian_agris_helmet.rigid_model_v2" >
+			<SLOT name="top_crests" />
+			<SLOT name="side_crests" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

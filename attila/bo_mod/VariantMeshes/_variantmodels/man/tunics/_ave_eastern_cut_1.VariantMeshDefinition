@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="tunics" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/eastern_basic_tunic_01_cut02.rigid_model_v2" imposter_model="variantmeshes\_variantmodels\man\tunics/eastern_basic_tunic_01_cut02.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/eastern_basic_tunic_01_cut02.rigid_model_v2" imposter_model="variantmeshes\_variantmodels\man\tunics/eastern_basic_tunic_01_cut02.rigid_model_v2"  mask0="1"  mask1="0" />
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/eastern_basic_tunic_01_cut02.rigid_model_v2" imposter_model="variantmeshes\_variantmodels\man\tunics/eastern_basic_tunic_01_cut02.rigid_model_v2"  mask0="2"  mask1="0"  mask2="1" />
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/eastern_basic_tunic_01_cut02.rigid_model_v2" imposter_model="variantmeshes\_variantmodels\man\tunics/eastern_basic_tunic_01_cut02.rigid_model_v2"  mask0="2"  mask2="0" />
+	</SLOT>
+</VARIANT_MESH>

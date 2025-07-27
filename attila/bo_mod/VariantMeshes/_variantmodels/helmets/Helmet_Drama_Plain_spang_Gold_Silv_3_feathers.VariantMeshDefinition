@@ -1,0 +1,22 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_dra_plain_gold_spangenhelm.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/white_feather_03.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" />
+			<SLOT name="face" />
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_dra_plain_silv_spangenhelm.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/white_feather_03.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" />
+			<SLOT name="face" />
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

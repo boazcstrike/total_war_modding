@@ -1,0 +1,10 @@
+<VARIANT_MESH>
+	<SLOT name="helmets">
+		<VARIANT_MESH imposter_model="VariantMeshes/_VariantModels/man/helmets/hellenic_boeotian.rigid_model_v2" model="VariantMeshes/_VariantModels/man/helmets/hellenic_boeotian.rigid_model_v2">
+			<SLOT attach_point="crest_centre" name="top_crests">
+				<VARIANT_MESH imposter_model="VariantMeshes\_VariantModels\man\crests\phyrgian_crest_1_white.rigid_model_v2" model="VariantMeshes/_VariantModels/man/crests/phyrgian_crest_1_white.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

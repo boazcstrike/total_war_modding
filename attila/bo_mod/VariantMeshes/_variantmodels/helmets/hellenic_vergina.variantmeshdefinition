@@ -1,0 +1,14 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/hellenic_vergina2_2.rigid_model_v2" imposter_model="VariantMeshes/_VariantModels/man/helmets/hellenic_vergina2_2.rigid_model_v2" >
+			<SLOT name="helmet" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/vergina.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" probability="0.8" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/white_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/red_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/black_feather_01_base.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

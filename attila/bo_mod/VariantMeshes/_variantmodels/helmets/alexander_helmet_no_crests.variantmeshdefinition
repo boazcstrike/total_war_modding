@@ -1,0 +1,12 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/aaa_ca_arena_alexander_helmet.rigid_model_v2" >
+			<SLOT name="top_crests" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/aaa_ca_arena_alexander_helmet_center_small_crest.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/aaa_ca_arena_alexander_helmet_side_crests.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

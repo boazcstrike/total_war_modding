@@ -1,0 +1,7 @@
+<VARIANT_MESH>
+	<SLOT name="armour" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/ave_quiver_1a.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/ave_quiver_2a.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/ave_quiver_3a.rigid_model_v2" />
+	</SLOT>
+</VARIANT_MESH>

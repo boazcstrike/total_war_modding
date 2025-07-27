@@ -1,0 +1,16 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/silver01_boeotian.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/roman_montefortino.rigid_model_v2" >
+			<SLOT name="top_crests" />
+			<SLOT name="side_crests" probability ="0.8" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/black_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/red_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/white_feather_01_base.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="mask" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/selmask_cataphract_helmet.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/seleuci_headwrap_2.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

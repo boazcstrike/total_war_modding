@@ -1,0 +1,9 @@
+<VARIANT_MESH>
+	<SLOT name="armour" >
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/armour/light_Honormail_armDRA_top_cut1.rigid_model_v2"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal"  imposter_model="VariantMeshes/_VariantModels/man/armour/light_chainmail_armour_top_01.rigid_model_v2" >
+			<SLOT name="skirt" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/armour/light_Honormail_armDRA_down_cut1.rigid_model_v2"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal"  imposter_model="VariantMeshes/_VariantModels/man/armour/light_chainmail_armour_down_01.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

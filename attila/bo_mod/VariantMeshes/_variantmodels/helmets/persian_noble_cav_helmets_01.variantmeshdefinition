@@ -1,0 +1,21 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/carthaginian_pylos.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/pylos_crest_1_black.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/pylos_crest_1_red.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/pylos_crest_1_white.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/hellenic_cheek_2.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/_paw_scipio_africanus_helmet.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/a_ceaser_crest.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/kaz_roman_crest_general_03.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

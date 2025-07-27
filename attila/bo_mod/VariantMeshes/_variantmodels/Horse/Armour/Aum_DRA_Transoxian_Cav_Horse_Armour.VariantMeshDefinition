@@ -1,0 +1,11 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\horse\armour/Aum_DRA_Tran_head_armor.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="neck" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\horse\armour/Aum_DRA_Trans_neck_armor.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="body" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\horse\armour/Aum_DR_hors_body_Armour.rigid_model_v2" />
+	</SLOT>
+</VARIANT_MESH>

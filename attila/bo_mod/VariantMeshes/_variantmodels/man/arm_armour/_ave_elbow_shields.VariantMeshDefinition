@@ -1,0 +1,11 @@
+<VARIANT_MESH>
+	<SLOT name="armour" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/_ave_elbow_shield.rigid_model_v2"  decal_diffuse="variantmeshes/_variantmodels/man/patterns/blank/decal_diffuse"  decal_normal="variantmeshes/_variantmodels/man/patterns/blank/decal_normal"  imposter_model="variantmeshes/_variantmodels/man/armour/_ave_elbow_shield.rigid_model_v2" >
+			<TINT red="0.298039" green="0.101961" blue="0.101961" random_range="0.2" />
+			<TINT red="0.203922" green="0.156863" blue="0.098039" random_range="0.2" />
+			<TINT red="0.203922" green="0.219608" blue="0.141176" random_range="0.2" />
+			<TINT red="0.094118" green="0.172549" blue="0.137255" random_range="0.2" />
+			<TINT red="0.462745" green="0.435294" blue="0.356863" random_range="0.2" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

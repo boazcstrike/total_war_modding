@@ -1,0 +1,41 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_arab_headscarf.rigid_model_v2" >
+			<TINT red="0.098039" green="0.035294" blue="0.011765" random_range="0.0" />
+					<SLOT name="top_crests" />
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_coif_snood.rigid_model_v2" >
+					<TINT red="0.117647" green="0.043137" blue="0.015686" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_es_snood_02_for_cloak.rigid_model_v2" >
+					<TINT red="0.117647" green="0.043137" blue="0.015686" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="face" />
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_es_snood.rigid_model_v2" >
+			<TINT red="0.666667" green="0.666667" blue="0.498039" random_range="0.0" />
+					<SLOT name="top_crests" />
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_coif_snood.rigid_model_v2" >
+					<TINT red="0.666667" green="0.666667" blue="0.498039" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="face" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_es_scale_helmet_iron.rigid_model_v2" >
+					<TINT red="0.666667" green="0.666667" blue="0.498039" random_range="0.0" />
+					<TINT red="0.156863" green="0.054902" blue="0.019608" random_range="0.0" />
+					<TINT red="0.098039" green="0.047059" blue="0.019608" random_range="0.0" />
+					<TINT red="0.239216" green="0.301961" blue="0.254902" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_arab_headscarf.rigid_model_v2" >
+					<TINT red="0.666667" green="0.666667" blue="0.498039" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

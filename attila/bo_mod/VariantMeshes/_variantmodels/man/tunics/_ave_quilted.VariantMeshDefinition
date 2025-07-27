@@ -1,0 +1,66 @@
+<VARIANT_MESH>
+	<SLOT name="armour" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/att_cha_quilted_tunic.rigid_model_v2"  imposter_model="variantmeshes\_variantmodels\man\tunics/att_cha_quilted_tunic.rigid_model_v2" >
+			<TINT red="0.552941" green="0.537255" blue="0.462745" random_range="0.05" />
+			<TINT red="0.764706" green="0.729412" blue="0.666667" random_range="0.05" />
+			<TINT red="0.619608" green="0.721569" blue="0.764706" random_range="0.05" />
+			<TINT red="0.47451" green="0.505882" blue="0.431373" random_range="0.05" />
+			<TINT red="0.278431" green="0.231373" blue="0.156863" random_range="0.0" />
+					<SLOT name="skirt" />
+			<SLOT name="shoulders" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/armenian_chest_disk.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="prop1" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/att_cha_fabric_belt.rigid_model_v2" >
+					<TINT red="0.184314" green="0.031373" blue="0.019608" random_range="0.05" />
+					<TINT red="0.031373" green="0.082353" blue="0.129412" random_range="0.05" />
+					<TINT red="0.047059" green="0.098039" blue="0.035294" random_range="0.05" />
+					<TINT red="0.07451" green="0.058824" blue="0.105882" random_range="0.05" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="prop2" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/att_cha_quilted_tunic.rigid_model_v2"  imposter_model="variantmeshes\_variantmodels\man\tunics/att_cha_quilted_tunic.rigid_model_v2" >
+			<TINT red="0.243137" green="0.145098" blue="0.082353" random_range="0.05" />
+			<TINT red="0.211765" green="0.168627" blue="0.082353" random_range="0.05" />
+			<TINT red="0.062745" green="0.105882" blue="0.137255" random_range="0.05" />
+			<TINT red="0.137255" green="0.070588" blue="0.070588" random_range="0.05" />
+			<TINT red="0.078431" green="0.105882" blue="0.043137" random_range="0.0" />
+					<SLOT name="skirt" />
+			<SLOT name="shoulders" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/armenian_chest_disk.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="prop1" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/att_cha_fabric_belt.rigid_model_v2" >
+			<TINT red="0.552941" green="0.537255" blue="0.462745" random_range="0.05" />
+			<TINT red="0.764706" green="0.729412" blue="0.666667" random_range="0.05" />
+			<TINT red="0.619608" green="0.721569" blue="0.764706" random_range="0.05" />
+			<TINT red="0.47451" green="0.505882" blue="0.431373" random_range="0.05" />
+			<TINT red="0.278431" green="0.231373" blue="0.156863" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="prop2" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\tunics/att_cha_quilted_tunic.rigid_model_v2"  imposter_model="variantmeshes\_variantmodels\man\tunics/att_cha_quilted_tunic.rigid_model_v2" >
+			<TINT red="0.552941" green="0.537255" blue="0.462745" random_range="0.05" />
+			<TINT red="0.764706" green="0.729412" blue="0.666667" random_range="0.05" />
+			<TINT red="0.619608" green="0.721569" blue="0.764706" random_range="0.05" />
+			<TINT red="0.47451" green="0.505882" blue="0.431373" random_range="0.05" />
+			<TINT red="0.278431" green="0.231373" blue="0.156863" random_range="0.0" />
+					<SLOT name="skirt" />
+			<SLOT name="shoulders" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/armenian_chest_disk.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="prop1" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\accessories/att_cha_fabric_belt.rigid_model_v2" >
+			<TINT red="0.552941" green="0.537255" blue="0.462745" random_range="0.05" />
+			<TINT red="0.764706" green="0.729412" blue="0.666667" random_range="0.05" />
+			<TINT red="0.619608" green="0.721569" blue="0.764706" random_range="0.05" />
+			<TINT red="0.47451" green="0.505882" blue="0.431373" random_range="0.05" />
+			<TINT red="0.278431" green="0.231373" blue="0.156863" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="prop2" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

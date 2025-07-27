@@ -1,0 +1,78 @@
+<VARIANT_MESH>
+	<SLOT name="tunics" >
+		<VARIANT_MESH>
+			<SLOT name="armour" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\armour/__ave_leather_lam_top_only.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\armour/__ave_leather_lam_top_only.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\armour/__ave_leather_lam_top_only.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\armour/__ave_metal_lam_top_only.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="belts" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\accessories/att_nomadic_ornate_belts_large.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="trousers" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/att_eastern_desert_trousers_tint.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/att_eastern_desert_trousers_elite.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/att_eastern_desert_trousers_tint.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/cha_leather_trousers.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="prop1" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\tunics/_ave_eastern_cut_1.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\tunics/_ave_eastern_cut_2.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\tunics/_ave_eastern_cut_3.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\tunics/_ave_eastern_cut_4.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="prop2" probability ="0.8" />
+			<SLOT name="prop3" />
+			<SLOT name="prop4" />
+			<SLOT name="prop5" />
+		</VARIANT_MESH>
+		<VARIANT_MESH>
+			<SLOT name="armour" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\armour/__ave_leather_lam_top_only.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\armour/__ave_leather_lam_top_only.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\armour/__ave_metal_lam_top_only.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\armour/__ave_leather_lam_top_only.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="belts" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\accessories/att_nomadic_ornate_belts_large.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="trousers" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/att_eastern_desert_trousers_tint.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/att_eastern_desert_trousers_elite.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/att_eastern_desert_trousers_tint.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/cha_leather_trousers.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="prop1" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\tunics/_ave_eastern_cut_5.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="prop2" probability ="0.8" />
+			<SLOT name="prop3" />
+			<SLOT name="prop4" />
+			<SLOT name="prop5" />
+		</VARIANT_MESH>
+		<VARIANT_MESH>
+			<SLOT name="armour" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\armour/__ave_leather_lam_top_only.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\armour/__ave_leather_lam_top_only.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\armour/__ave_metal_lam_top_only.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="belts" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\accessories/att_nomadic_ornate_belts_large.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="trousers" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/att_eastern_desert_trousers_tint.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/att_eastern_desert_trousers_elite.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/att_eastern_desert_trousers_tint.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/cha_leather_trousers.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="prop1" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\tunics/_ave_eastern_cut_5.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="prop2" probability ="0.8" />
+			<SLOT name="prop3" />
+			<SLOT name="prop4" />
+			<SLOT name="prop5" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

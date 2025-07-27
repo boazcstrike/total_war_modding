@@ -1,0 +1,46 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/hellenic_thracian_elits_2.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/hellenic_thracian_elits_2.rigid_model_v2" >
+			<SLOT name="cheekguards" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/thracian_cheeksilver_elite_2.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="top_crests" probability ="0.3" attach_point="crest_centre" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/tall_ridge_crest_1_black.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/tall_ridge_crest_1_white.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/tall_ridge_crest_1_red.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/black_horsehair_split_01.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/red_horsehair_split_01.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/white_horsehair_split_01.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/white_horsehair_01.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/black_horsehair.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/red_horsehair.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/black_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/red_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/white_feather_01_base.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/hellenic_thracian_elits_3.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/hellenic_thracian_elits_3.rigid_model_v2" >
+			<SLOT name="cheekguards" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/thracian_cheeksilver_elite_3.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="top_crests" probability ="0.3" attach_point="crest_centre" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/tall_ridge_crest_1_black.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/tall_ridge_crest_1_white.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/tall_ridge_crest_1_red.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/black_horsehair_split_01.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/red_horsehair_split_01.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/white_horsehair_split_01.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/white_horsehair_01.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/black_horsehair.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/red_horsehair.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/black_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/red_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/white_feather_01_base.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

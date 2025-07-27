@@ -1,0 +1,60 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generic_spangenhelm_elite.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/generic_spangenhelm_elite.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_long.rigid_model_v2"  mask0="1"  mask1="0" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_short.rigid_model_v2"  mask0="1"  mask1="0" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_long.rigid_model_v2"  mask0="1"  mask1="0" />
+			</SLOT>
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/cheek_half_plate_elite.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/cheek_half_plate_elite_bronze.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="face" probability ="0.9" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/face_mail.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="neck" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_scale_01_cut.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_scale_02_cut.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_scale_02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_scale_01.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_es_neck_scale_bronze.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generic_spangenhelm_elite.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/generic_spangenhelm_elite.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_long.rigid_model_v2"  mask0="1"  mask1="0" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_short.rigid_model_v2"  mask0="1"  mask1="0" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_long.rigid_model_v2"  mask0="1"  mask1="0" />
+			</SLOT>
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" />
+			<SLOT name="face" probability ="0.9" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/face_mail.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="neck" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_coif_snood.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_es_neck_scale_bronze.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_byz_aventail.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generic_spangenhelm_elite.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/generic_spangenhelm_elite.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_long.rigid_model_v2"  mask0="1"  mask1="0" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_short.rigid_model_v2"  mask0="1"  mask1="0" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_long.rigid_model_v2"  mask0="1"  mask1="0" />
+			</SLOT>
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" />
+			<SLOT name="face" probability ="0.9" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/face_mail.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="neck" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_es_neck_scale_bronze.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_scale_02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_scale_01.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

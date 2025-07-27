@@ -1,0 +1,10 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/aaa_ca_car_helmet_thracian_base_painted.rigid_model_v2"  mask0="0"  mask2="1" >
+			<SLOT name="top_crests" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/__ciu_thracian_plume_a.rigid_model_v2"  mask0="1"  mask1="0" />
+			</SLOT>
+			<SLOT name="side_crests" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

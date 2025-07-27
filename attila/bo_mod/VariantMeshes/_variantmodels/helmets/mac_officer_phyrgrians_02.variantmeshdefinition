@@ -1,0 +1,69 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/hellenic_phyrgian_s.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/phyrgian_crest_1_red.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/phyrgian_crest_1_white.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/phyrgian_mercenary_crest_1.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/black_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/blue_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/red_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/white_feather_01_base.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/hellenic_phyrgian_s_b.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/phyrgian_crest_1_red.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/phyrgian_crest_1_white.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/phyrgian_mercenary_crest_1.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/black_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/blue_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/red_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/white_feather_01_base.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/hellenic_phyrgian_s_p.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/phyrgian_crest_1_red.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/phyrgian_crest_1_white.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/phyrgian_mercenary_crest_1.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/black_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/blue_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/red_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/white_feather_01_base.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/hellenic_phyrgian_s_r.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/phyrgian_crest_1_red.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/phyrgian_crest_1_white.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/phyrgian_mercenary_crest_1.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/black_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/blue_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/red_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/white_feather_01_base.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/hellenic_phyrgian_s_y.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/phyrgian_crest_1_red.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/phyrgian_crest_1_white.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/phyrgian_mercenary_crest_1.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/black_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/blue_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/red_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/white_feather_01_base.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

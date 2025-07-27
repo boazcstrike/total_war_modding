@@ -1,0 +1,61 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nordic_ridge_helmet_02.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/nordic_ridge_helmet_02.rigid_model_v2" >
+			<SLOT name="top_crests" />
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_scale_02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_scale_01.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="face" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\hair_beards/att_barb_red_short_helmet_short_2.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\hair_beards/att_barb_mixed_short_helmet_plaited.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\hair_beards/att_barb_light_short_helmet_short_2.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\hair_beards/att_barb_light_short_helmet_short.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="neck" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_coif_snood.rigid_model_v2" >
+					<TINT red="0.294118" green="0.031373" blue="0.0" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generic_spangenhelm_heavy.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/att_cha_islamic_coif_b_cut_1.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_short.rigid_model_v2" >
+					<TINT red="0.976471" green="0.917647" blue="0.760784" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_long.rigid_model_v2" >
+					<TINT red="0.819608" green="0.811765" blue="0.690196" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_scale_01.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="face" />
+			<SLOT name="neck" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_islamic_coif_a_cut_1.rigid_model_v2" >
+					<TINT red="0.294118" green="0.031373" blue="0.0" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_coif_snood.rigid_model_v2" >
+					<TINT red="0.294118" green="0.031373" blue="0.0" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generic_spangenhelm_heavy.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/att_cha_islamic_coif_b_cut_1.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_short.rigid_model_v2" >
+					<TINT red="0.980392" green="0.776471" blue="0.545098" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" />
+			<SLOT name="face" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_islamic_coif_a_cut_1.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="neck" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_scale_01.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

@@ -1,0 +1,31 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/croc_helmet_dra_aventail_counterpgold.rigid_model_v2" >
+			<SLOT name="top_crests" />
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/che_half_plagold.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="face" />
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/croc_helmet_counterpbronz_spangenh_dra.rigid_model_v2" >
+			<SLOT name="top_crests" />
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/che_half_plabronze.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="face" />
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/croc_helmet_set_aventail_counterpoint.rigid_model_v2" >
+			<SLOT name="top_crests" />
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/cheek_half_plates.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="face" />
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

@@ -1,0 +1,22 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nordic_ridge_helmet_02.rigid_model_v2" >
+			<SLOT name="top_crests" />
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_dram_leath.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="face" />
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nordic_ridge_helmet_01.rigid_model_v2" >
+			<SLOT name="top_crests" />
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_dram_leath.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="face" />
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

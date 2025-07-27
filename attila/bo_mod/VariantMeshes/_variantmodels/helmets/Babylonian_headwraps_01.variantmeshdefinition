@@ -1,0 +1,18 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nubian_headdress_01.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/roman_montefortino.rigid_model_v2" >
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nubian_headdress_01_no_mask.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/roman_montefortino.rigid_model_v2" >
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nubian_headdress_02.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/roman_montefortino.rigid_model_v2" >
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nubian_headdress_02.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/roman_montefortino.rigid_model_v2"  mask0="2"  mask1="0"  mask2="1" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nubian_headdress_02.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/roman_montefortino.rigid_model_v2"  mask0="2"  mask2="0" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>
+
+
+
+

@@ -1,0 +1,5 @@
+<VARIANT_MESH>
+	<SLOT name="greaves" >
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/greaves/AUM_DRAste_greav.rigid_model_v2" />
+	</SLOT>
+</VARIANT_MESH>

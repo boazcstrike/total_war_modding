@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/hellenic_konos_s.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/roman_montefortino.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" />
+			<SLOT name="side_crests" attach_point="crest_left,crest_right" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

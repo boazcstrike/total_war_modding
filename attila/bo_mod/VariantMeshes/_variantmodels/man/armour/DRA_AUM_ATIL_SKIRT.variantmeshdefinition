@@ -1,0 +1,5 @@
+<VARIANT_MESH>
+	<SLOT name="trousers" >
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/armour/DRA_AUM_ATIL_SKIRT.rigid_model_v2"  decal_diffuse="VariantMeshes/_VariantModels/man/patterns/blank/decal_diffuse"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal"  imposter_model="VariantMeshes/_VariantModels/man/armour/nomadic_skirt_01.rigid_model_v2" />
+	</SLOT>
+</VARIANT_MESH>

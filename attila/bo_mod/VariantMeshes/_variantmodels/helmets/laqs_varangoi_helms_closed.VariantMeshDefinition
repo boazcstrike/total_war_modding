@@ -1,0 +1,13 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nordic_ridge_helmet_01.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/att_cha_islamic_coif_b_cut_1.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" />
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_islamic_coif_a_cut_1.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="face" />
+			<SLOT name="neck" probability ="0.3" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

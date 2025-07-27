@@ -1,0 +1,46 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_slv_western_slav_spangenhelm_nasal_02.rigid_model_v2" >
+			<SLOT name="top_crests" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\crests/crest_imposter_spang_jewelled.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" />
+			<SLOT name="face" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nordic_ridge_helmet_02.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="neck" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_chain_mail.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_chain_mail.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_chain_mail.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nordic_ridge_helmet_02.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_left,crest_right" />
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" />
+			<SLOT name="face" />
+			<SLOT name="neck" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_chain_mail.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/face_mail_surround_armour_03b.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_islamic_coif_a_cut_1.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_chain_mail.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_chain_mail.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nordic_ridge_helmet_01.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\crests/crest_imposter_spang_jewelled.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" />
+			<SLOT name="face" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nordic_ridge_helmet_01.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nordic_ridge_helmet_02.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="neck" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_chain_mail.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

@@ -1,0 +1,21 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nordic_ridge_helmet_01.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/nordic_ridge_helmet_01.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" />
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" probability ="0.75" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/att_bel_kingly_beard.rigid_model_v2" >
+					<TINT red="0.313726" green="0.14902" blue="0.015686" random_range="0.0" />
+					<TINT red="0.188235" green="0.172549" blue="0.031373" random_range="0.0" />
+					<TINT red="0.078431" green="0.035294" blue="0.015686" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\hair_beards/att_barb_beard_medium.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="face" />
+			<SLOT name="neck" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_chain_mail.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_coif_snood.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

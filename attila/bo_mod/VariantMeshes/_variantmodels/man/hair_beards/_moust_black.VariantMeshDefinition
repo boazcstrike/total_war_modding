@@ -1,0 +1,13 @@
+<VARIANT_MESH>
+	<SLOT name="beard" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/att_celts_moustache_1.rigid_model_v2" >
+			<TINT red="0.003922" green="0.003922" blue="0.003922" random_range="0.0" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/barbarian_beard_02i.rigid_model_v2" >
+			<TINT red="0.011765" green="0.011765" blue="0.011765" random_range="0.0" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/barbarian_beard_02j.rigid_model_v2" >
+			<TINT red="0.011765" green="0.011765" blue="0.011765" random_range="0.0" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

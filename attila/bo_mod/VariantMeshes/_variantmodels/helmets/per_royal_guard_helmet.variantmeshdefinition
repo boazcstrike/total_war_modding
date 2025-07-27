@@ -1,0 +1,13 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/carthaginian_pylos_2.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_long.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_long_red.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/hellenic_cheek_2.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

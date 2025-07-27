@@ -1,0 +1,19 @@
+<VARIANT_MESH>
+	<SLOT name="beard" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/att_cha_islamic_leader_beard.rigid_model_v2" >
+			<TINT red="0.047059" green="0.027451" blue="0.019608" random_range="0.05" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/eastern_beard_03a_tinted.rigid_model_v2" >
+			<TINT red="0.129412" green="0.101961" blue="0.078431" random_range="0.05" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/eastern_beard_03b_tinted.rigid_model_v2" >
+			<TINT red="0.129412" green="0.101961" blue="0.078431" random_range="0.05" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/eastern_beard_03c_tinted.rigid_model_v2" >
+			<TINT red="0.129412" green="0.101961" blue="0.078431" random_range="0.05" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/eastern_beard_03d_tinted.rigid_model_v2" >
+			<TINT red="0.129412" green="0.101961" blue="0.078431" random_range="0.05" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

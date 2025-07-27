@@ -1,0 +1,54 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generic_spangenhelm_elite.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/generic_spangenhelm_elite.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_long.rigid_model_v2"  mask0="1"  mask1="0" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_short.rigid_model_v2"  mask0="1"  mask1="0" />
+			</SLOT>
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" />
+			<SLOT name="face" />
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_conical_helm.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/att_cha_conical_helm.rigid_model_v2" >
+			<SLOT name="top_crests" />
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\crests/crest_imposter_spang_jewelled.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="face" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_coif_snood.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generic_spangenhelm_elite.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/generic_spangenhelm_elite.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_long.rigid_model_v2"  mask0="1"  mask1="0" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_short.rigid_model_v2"  mask0="1"  mask1="0" />
+			</SLOT>
+			<SLOT name="side_crests" attach_point="crest_left,crest_right" />
+			<SLOT name="cheeks" />
+			<SLOT name="face" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_coif_snood.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generic_spangenhelm_elite.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/generic_spangenhelm_elite.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_long.rigid_model_v2"  mask0="1"  mask1="0" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_short.rigid_model_v2"  mask0="1"  mask1="0" />
+			</SLOT>
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" probability ="0.6" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/att_bel_kingly_beard.rigid_model_v2" >
+					<TINT red="0.231373" green="0.145098" blue="0.047059" random_range="0.0" />
+					<TINT red="0.082353" green="0.047059" blue="0.003922" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="face" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_coif_snood.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

@@ -1,0 +1,43 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generic_spangenhelm_heavy.rigid_model_v2" >
+			<SLOT name="top_crests" />
+			<SLOT name="side_crests" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_dr_neck_scale_silver.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_dram_leath.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="cheeks" />
+			<SLOT name="face" />
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generic_spangenhelm_light.rigid_model_v2" >
+			<SLOT name="top_crests" />
+			<SLOT name="side_crests" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_es_snood_02_for_cloak.rigid_model_v2" >
+					<TINT red="0.666667" green="0.666667" blue="0.498039" random_range="0.0" />
+					<TINT red="0.113725" green="0.078431" blue="0.062745" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_dr_neck_scale_silver.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_dram_leath.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="cheeks" />
+			<SLOT name="face" />
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_es_snood_02_for_cloak.rigid_model_v2" >
+			<TINT red="0.172549" green="0.101961" blue="0.078431" random_range="0.0" />
+					<SLOT name="top_crests" />
+			<SLOT name="side_crests" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nubian_headdress_01.rigid_model_v2" >
+					<TINT red="0.113725" green="0.066667" blue="0.05098" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nubian_headdress_02.rigid_model_v2" >
+					<TINT red="0.129412" green="0.07451" blue="0.058824" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="cheeks" />
+			<SLOT name="face" />
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

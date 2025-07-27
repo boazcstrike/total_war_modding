@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model>
+    <SourceFile>&lt;raw&gt;/variantmeshes/variantmodels/man/armour/ave_quiver_2a.cs2</SourceFile>
+    <Texture>variantmeshes/_variantmodels/man/armour/tex/test_white</Texture>
+    <Texture>variantmeshes/_variantmodels/man/armour/tex/default_decaldirtmap</Texture>
+    <Texture>variantmeshes/_variantmodels/man/armour/tex/quivers_gloss_map</Texture>
+    <Texture>variantmeshes/_variantmodels/man/armour/tex/quivers_specular</Texture>
+    <Texture>variantmeshes/_variantmodels/man/armour/tex/quivers_diffuse</Texture>
+    <Texture>variantmeshes/_variantmodels/man/armour/tex/quivers_normal</Texture>
+    <Texture>variantmeshes/_variantmodels/man/armour/tex/test_mask</Texture>
+    <Mesh id="0">
+        <Duplicate>False</Duplicate>
+        <LOD lod="0">
+            <Distance>100</Distance>
+            <Name>quiver_b</Name>
+            <Target>c:/program files (x86)/steam/steamapps/common/total war attila/assembly_kit/working_data/VariantMeshes/_VariantModels/man/armour/ave_quiver_2a.rigid_model_v2</Target>
+            <Alpha>AlphaTest</Alpha>
+            <Shader>weighted_dirtmap</Shader>
+            <Type>rome_man_game</Type>
+            <Cinematic>No</Cinematic>
+            <Vertices>489</Vertices>
+            <TriCount>400</TriCount>
+        </LOD>
+    </Mesh>
+</Model>

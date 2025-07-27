@@ -1,0 +1,22 @@
+<VARIANT_MESH>
+	<SLOT name="tunics" >
+		<VARIANT_MESH>
+			<SLOT name="armour" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\tunics/_ave_quilted.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="belts" />
+			<SLOT name="trousers" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/cha_leather_trousers.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/att_eastern_desert_trousers_tint.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\trousers/att_eastern_desert_trousers_tint.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="prop1" />
+			<SLOT name="prop2" probability ="0.3" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\accessories/att_eastern_amulet.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\accessories/att_eastern_amulet.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="prop4" />
+			<SLOT name="prop5" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

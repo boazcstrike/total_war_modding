@@ -1,0 +1,5 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/eastern_arab_hat.rigid_model_v2" imposter_model="variantmeshes\_variantmodels\man\helmets/eastern_arab_hat.rigid_model_v2" />
+	</SLOT>
+</VARIANT_MESH>

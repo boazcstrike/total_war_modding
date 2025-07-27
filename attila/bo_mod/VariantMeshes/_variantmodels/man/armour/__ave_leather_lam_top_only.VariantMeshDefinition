@@ -1,0 +1,28 @@
+<VARIANT_MESH>
+	<SLOT name="armour" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/_ave_leather_lam_1_top.rigid_model_v2"  imposter_model="variantmeshes\_variantmodels\man\armour/_ave_leather_lam_1_top.rigid_model_v2" >
+			<SLOT name="skirt" />
+			<SLOT name="shoulders" probability ="0.8" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shoulders/_ave_leather_lam_shoulder1.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/_ave_leather_lam_2_top.rigid_model_v2"  imposter_model="variantmeshes\_variantmodels\man\armour/_ave_leather_lam_1_top.rigid_model_v2" >
+			<SLOT name="skirt" />
+			<SLOT name="shoulders" probability ="0.8" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shoulders/_ave_leather_lam_shoulder2.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/_ave_leather_lam_3_top.rigid_model_v2"  imposter_model="variantmeshes\_variantmodels\man\armour/_ave_leather_lam_1_top.rigid_model_v2" >
+			<SLOT name="skirt" />
+			<SLOT name="shoulders" probability ="0.8" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shoulders/_ave_leather_lam_shoulder3.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\armour/_ave_leather_lam_4_top.rigid_model_v2"  imposter_model="variantmeshes\_variantmodels\man\armour/_ave_leather_lam_1_top.rigid_model_v2" >
+			<SLOT name="skirt" />
+			<SLOT name="shoulders" probability ="0.8" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\shoulders/_ave_leather_lam_shoulder4.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

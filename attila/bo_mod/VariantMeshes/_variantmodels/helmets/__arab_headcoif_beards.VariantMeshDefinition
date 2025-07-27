@@ -1,0 +1,10 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\helmets/_arab_headcoif.VariantMeshDefinition" />
+	</SLOT>
+	<SLOT name="beards" probability ="0.9" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\hair_beards/__arab_beards.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\hair_beards/__arab_beards.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\hair_beards/__arab_moust.VariantMeshDefinition" />
+	</SLOT>
+</VARIANT_MESH>

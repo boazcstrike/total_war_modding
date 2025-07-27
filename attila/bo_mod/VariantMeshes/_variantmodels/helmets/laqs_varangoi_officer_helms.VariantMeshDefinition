@@ -1,0 +1,50 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/generic_spangenhelm_light.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/att_slv_western_slav_spangenhelm_02.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/black_horsehair.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/white_horsehair_split_01.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/black_horsehair_split_01.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_slv_western_slav_spangenhelm_nasal_02.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="face" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\hair_beards\beards/barbarian_beard_01h_blonde.rigid_model_v2" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\hair_beards/att_barb_beard_medium.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\hair_beards/att_barb_light_short_helmet_short.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="neck" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/eastern_spangenhelm_neck_chainmail.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_coif_snood.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/roman_officer_infantry_helmet_01.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/roman_elite_ridge_helmet.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/hair_crest_red.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/ridge_crest_short_purple.rigid_model_v2" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\crests/att_ridge_short.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\crests/att_ridge_long.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\crests/att_long_faction.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="side_crests" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/olive_wreath_02.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="cheeks" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\hair_beards/att_barb_dark_short_helmet_short_2.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="face" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nordic_ridge_helmet_01.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/nordic_ridge_helmet_02.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="neck" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_chain_mail.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_chain_mail_cut_cloak.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_lamellar.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/neck_scale_01_cut.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_byz_aventail.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

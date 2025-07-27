@@ -1,0 +1,26 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_dra_plain_gold_spangenhelm.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_knot.rigid_model_v2" >
+					<TINT red="0.47451" green="0.05098" blue="0.058824" random_range="0.0" />
+					<TINT red="0.807843" green="0.0" blue="0.0" random_range="0.0" />
+					<TINT red="0.415686" green="0.290196" blue="0.07451" random_range="0.0" />
+					<TINT red="0.117647" green="0.227451" blue="0.254902" random_range="0.0" />
+					<TINT red="0.380392" green="0.380392" blue="0.380392" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/horse_hair_short.rigid_model_v2" >
+					<TINT red="0.415686" green="0.290196" blue="0.07451" random_range="0.0" />
+					<TINT red="0.47451" green="0.05098" blue="0.058824" random_range="0.0" />
+					<TINT red="0.65098" green="0.435294" blue="0.0" random_range="0.0" />
+					<TINT red="0.419608" green="0.419608" blue="0.419608" random_range="0.0" />
+					<TINT red="0.129412" green="0.015686" blue="0.011765" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" />
+			<SLOT name="face" />
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

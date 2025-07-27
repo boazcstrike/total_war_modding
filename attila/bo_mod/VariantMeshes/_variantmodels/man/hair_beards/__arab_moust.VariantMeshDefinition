@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="beard" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\hair_beards/_moust_black.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\hair_beards/_moust_black.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\hair_beards/_moust_black.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\hair_beards/_moust_lighter.VariantMeshDefinition" />
+	</SLOT>
+</VARIANT_MESH>

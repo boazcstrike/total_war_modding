@@ -1,0 +1,5 @@
+<VARIANT_MESH>
+	<SLOT name="armour" >
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/armour/Aum_DR_LANG.rigid_model_v2"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal"  imposter_model="VariantMeshes/_VariantModels/man/armour/lorica_squamata_heavy_mail_bronze.rigid_model_v2" />
+	</SLOT>
+</VARIANT_MESH>

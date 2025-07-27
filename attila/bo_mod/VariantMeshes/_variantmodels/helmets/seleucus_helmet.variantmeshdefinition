@@ -1,0 +1,12 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/silver_shield_helm_0.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/tall_ridge_crest_1_red.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/white_feather_01_base.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

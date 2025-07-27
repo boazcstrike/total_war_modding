@@ -1,0 +1,31 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/inv_sardi_helmet_one_horn/inv_sardi_helmet_one_horn.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/inv_sardi_helmet_one_horn/inv_sardi_helmet_one_horn.rigid_model_v2" >
+			<SLOT name="top_crests" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_01_helmet_brown_lod1.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_01_helmet_drkbrown_lod1.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_02_helmet_brown_lod1.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_02_helmet_drkbrown_lod1.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/inv_sardi_helmet_blackened_horn/inv_sardi_helmet_blackened_horn.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/inv_sardi_helmet_one_horn/inv_sardi_helmet_one_horn.rigid_model_v2" >
+			<SLOT name="top_crests" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_01_helmet_brown_lod1.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_01_helmet_drkbrown_lod1.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_02_helmet_brown_lod1.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_02_helmet_drkbrown_lod1.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/inv_sardi_helmet_leather_horned/inv_sardi_helmet_leather_horned.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/inv_sardi_helmet_one_horn/inv_sardi_helmet_one_horn.rigid_model_v2" >
+			<SLOT name="top_crests" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_01_helmet_brown_lod1.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_01_helmet_drkbrown_lod1.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_02_helmet_brown_lod1.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/hair_beards/hair/barbarian_hair_02_helmet_drkbrown_lod1.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

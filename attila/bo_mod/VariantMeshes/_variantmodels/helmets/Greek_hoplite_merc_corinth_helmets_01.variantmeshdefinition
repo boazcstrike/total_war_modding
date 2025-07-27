@@ -1,0 +1,26 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/gre_corinthian_1.rigid_model_v2" >
+			<SLOT name="top_crests" probability ="0.6" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/gre_corinthian_crest_white.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/gre_corinthian_crest_black.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/gre_corinthian_crest_red.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests\inv_samnite_crest_multicolor/inv_samnite_crest_multicolor_01.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests\inv_samnite_crest_multicolor/inv_samnite_crest_multicolor_03.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests\inv_samnite_crest_multicolor/inv_samnite_crest_multicolor_05.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/gre_corinthian_2.rigid_model_v2" >
+			<SLOT name="top_crests" probability ="0.6" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/gre_corinthian_crest_white.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/gre_corinthian_crest_black.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/gre_corinthian_crest_red.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests\inv_samnite_crest_multicolor/inv_samnite_crest_multicolor_01.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests\inv_samnite_crest_multicolor/inv_samnite_crest_multicolor_02.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests\inv_samnite_crest_multicolor/inv_samnite_crest_multicolor_06.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

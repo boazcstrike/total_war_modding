@@ -1,0 +1,31 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/eastern_spangenhelm.rigid_model_v2"  imposter_model="variantmeshes\_variantmodels\man\helmets/eastern_spangenhelm.rigid_model_v2" >
+			<TINT red="0.552941" green="0.537255" blue="0.462745" random_range="0.05" />
+			<TINT red="0.764706" green="0.729412" blue="0.666667" random_range="0.05" />
+			<TINT red="0.619608" green="0.721569" blue="0.764706" random_range="0.05" />
+			<TINT red="0.47451" green="0.505882" blue="0.431373" random_range="0.05" />
+			<TINT red="0.278431" green="0.231373" blue="0.156863" random_range="0.0" />
+					<SLOT name="top_crests" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_byz_aventail.rigid_model_v2" >
+					<TINT red="0.133333" green="0.090196" blue="0.058824" random_range="0.05" />
+					<TINT red="0.101961" green="0.113725" blue="0.066667" random_range="0.05" />
+					<TINT red="0.031373" green="0.054902" blue="0.101961" random_range="0.05" />
+					<TINT red="0.066667" green="0.062745" blue="0.117647" random_range="0.05" />
+					<TINT red="0.082353" green="0.003922" blue="0.003922" random_range="0.0" />
+				</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/att_cha_coif_snood.rigid_model_v2" >
+					<TINT red="0.552941" green="0.537255" blue="0.462745" random_range="0.05" />
+					<TINT red="0.764706" green="0.729412" blue="0.666667" random_range="0.05" />
+					<TINT red="0.619608" green="0.721569" blue="0.764706" random_range="0.05" />
+					<TINT red="0.47451" green="0.505882" blue="0.431373" random_range="0.05" />
+					<TINT red="0.278431" green="0.231373" blue="0.156863" random_range="0.0" />
+				</VARIANT_MESH>
+			</SLOT>
+			<SLOT name="side_crests" />
+			<SLOT name="cheeks" />
+			<SLOT name="face" />
+			<SLOT name="neck" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

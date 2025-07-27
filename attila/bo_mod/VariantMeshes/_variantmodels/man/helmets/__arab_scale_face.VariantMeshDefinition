@@ -1,0 +1,5 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\helmets/_arab_scale_snood_face.VariantMeshDefinition" />
+	</SLOT>
+</VARIANT_MESH>

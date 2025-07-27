@@ -1,0 +1,12 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets\inv_sardi_helmet_blackened_horn/inv_sardi_helmet_blackened_horn.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/inv_veneti_cone_helmet/inv_veneti_cone_helmet.rigid_model_v2" >
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets\inv_sardi_helmet_leather_horned/inv_sardi_helmet_leather_horned.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/inv_veneti_cone_helmet/inv_veneti_cone_helmet.rigid_model_v2" >
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets\inv_sardi_helmet_one_horn/inv_sardi_helmet_one_horn.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/inv_veneti_cone_helmet/inv_veneti_cone_helmet.rigid_model_v2" >
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets\inv_sardi_helmet_tall_horns/inv_sardi_helmet_tall_horns.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/inv_veneti_cone_helmet/inv_veneti_cone_helmet.rigid_model_v2" >
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

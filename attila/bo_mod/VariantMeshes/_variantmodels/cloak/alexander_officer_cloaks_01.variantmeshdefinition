@@ -1,0 +1,10 @@
+<VARIANT_MESH>
+	<SLOT name="cloaks" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\cloak/aaa_ca_senator_cloak_01.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/cloak/eastern_cloak_02_cav.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\cloak/aaa_ca_senator_cloak_02.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/cloak/eastern_cloak_02_cav.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\cloak/aaa_ca_senator_cloak_03.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/cloak/eastern_cloak_02_cav.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\cloak/aaa_ca_senator_cloak_04.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/cloak/eastern_cloak_02_cav.rigid_model_v2" />
+	</SLOT>
+</VARIANT_MESH>
+
+

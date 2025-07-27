@@ -1,0 +1,36 @@
+<VARIANT_MESH>
+	<SLOT name="shields" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/round_curved_shield.rigid_model_v2"  decal_diffuse="variantmeshes/_variantmodels/man/patterns/arabic/_arabic_round"  decal_normal="variantmeshes/_variantmodels/man/patterns/blank/decal_normal" >
+			<TINT red="0.027451" green="0.082353" blue="0.14902" random_range="0.05" />
+			<TINT red="0.058824" green="0.105882" blue="0.027451" random_range="0.05" />
+			<TINT red="0.098039" green="0.023529" blue="0.023529" random_range="0.05" />
+			<TINT red="0.047059" green="0.027451" blue="0.094118" random_range="0.05" />
+			<TINT red="0.152941" green="0.05098" blue="0.015686" random_range="0.05" />
+					<SLOT name="boss" probability ="0.8" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\bosses/att_medium_curved_eastern.VariantMeshDefinition" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/round_curved_reinforced_shield.rigid_model_v2"  decal_diffuse="variantmeshes/_variantmodels/man/patterns/arabic/_arabic_round"  decal_normal="variantmeshes/_variantmodels/man/patterns/blank/decal_normal" >
+			<TINT red="0.027451" green="0.082353" blue="0.14902" random_range="0.05" />
+			<TINT red="0.058824" green="0.105882" blue="0.027451" random_range="0.05" />
+			<TINT red="0.098039" green="0.023529" blue="0.023529" random_range="0.05" />
+			<TINT red="0.047059" green="0.027451" blue="0.094118" random_range="0.05" />
+			<TINT red="0.152941" green="0.05098" blue="0.015686" random_range="0.05" />
+
+			<SLOT name="boss" probability ="0.8" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\bosses/att_medium_curved_eastern.VariantMeshDefinition" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\shield/round_curved_shield.rigid_model_v2"  decal_diffuse="variantmeshes/_variantmodels/man/patterns/arabic/_arabic_round"  decal_normal="variantmeshes/_variantmodels/man/patterns/blank/decal_normal" >
+			<TINT red="0.027451" green="0.082353" blue="0.14902" random_range="0.05" />
+			<TINT red="0.058824" green="0.105882" blue="0.027451" random_range="0.05" />
+			<TINT red="0.098039" green="0.023529" blue="0.023529" random_range="0.05" />
+			<TINT red="0.047059" green="0.027451" blue="0.094118" random_range="0.05" />
+			<TINT red="0.152941" green="0.05098" blue="0.015686" random_range="0.05" />
+
+			<SLOT name="boss" probability ="0.8" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\bosses/att_medium_curved_eastern.VariantMeshDefinition" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

@@ -1,0 +1,34 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/hellenic_thracian_elite_2.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/roman_montefortino.rigid_model_v2" >
+			<SLOT name="cheekguards" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/thracian_cheekguards_elite_2.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/tall_ridge_crest_1_black.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/tall_ridge_crest_1_white.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/tall_ridge_crest_1_red.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" probability ="0.8" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/black_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/red_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/white_feather_01_base.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/hellenic_thracian_elite_3.rigid_model_v2"  imposter_model="VariantMeshes/_VariantModels/man/helmets/roman_montefortino.rigid_model_v2" >
+			<SLOT name="cheekguards" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/thracian_cheekguards_elite_3.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/tall_ridge_crest_1_black.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/tall_ridge_crest_1_white.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/tall_ridge_crest_1_red.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" probability ="0.8" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/black_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/red_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="VariantMeshes/_VariantModels/man/crests/white_feather_01_base.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

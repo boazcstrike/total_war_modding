@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="left_bracer" >
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/accessories/iron_DRAmellar_bracers_left_01.rigid_model_v2"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" />
+	</SLOT>
+	<SLOT name="right_bracer" >
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/accessories/iron_DRAmellar_bracers_right_01.rigid_model_v2"  decal_normal="VariantMeshes/_VariantModels/man/patterns/blank/decal_normal" />
+	</SLOT>
+</VARIANT_MESH>

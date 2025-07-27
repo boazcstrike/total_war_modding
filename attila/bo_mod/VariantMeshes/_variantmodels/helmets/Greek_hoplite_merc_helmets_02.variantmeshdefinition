@@ -1,0 +1,58 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/hellenic_chalcadian_helmet_01.rigid_model_v2" >
+			<SLOT name="top_crests" probability ="0.6" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests\inv_samnite_crest_multicolor/inv_samnite_crest_multicolor_03.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests\inv_samnite_crest_multicolor/inv_samnite_crest_multicolor_05.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests\inv_samnite_crest_multicolor/inv_samnite_crest_multicolor_01.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/gre_corinthian_crest_red.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/gre_corinthian_crest_white.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/black_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/blue_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/red_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/white_feather_01_base.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/italic_attic_1.rigid_model_v2" >
+			<SLOT name="top_crests" probability ="0.6" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests\inv_samnite_crest_multicolor/inv_samnite_crest_multicolor_03.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests\inv_samnite_crest_multicolor/inv_samnite_crest_multicolor_05.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests\inv_samnite_crest_multicolor/inv_samnite_crest_multicolor_01.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" attach_point="crest_left,crest_right" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/hellenic_thracian_2.rigid_model_v2" >
+			<SLOT name="top_crests" probability ="0.6" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests\inv_samnite_crest_multicolor/inv_samnite_crest_multicolor_03.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests\inv_samnite_crest_multicolor/inv_samnite_crest_multicolor_05.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests\inv_samnite_crest_multicolor/inv_samnite_crest_multicolor_01.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/black_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/blue_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/red_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/white_feather_01_base.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/hellenic_thracian_3.rigid_model_v2" >
+			<SLOT name="top_crests" probability ="0.6" attach_point="crest_centre" />
+			<SLOT name="side_crests" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/black_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/blue_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/red_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/white_feather_01_base.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\_variantmodels\man\helmets/carthaginian_pylos.rigid_model_v2" >
+			<SLOT name="top_crests" probability ="0.6" attach_point="crest_centre" />
+			<SLOT name="side_crests" attach_point="crest_left,crest_right" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/black_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/blue_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/red_feather_01_base.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/white_feather_01_base.rigid_model_v2" />
+			</SLOT>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

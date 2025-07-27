@@ -1,0 +1,28 @@
+<VARIANT_MESH>
+	<SLOT name="helmets" >
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/hellenic_thracian_2.rigid_model_v2"  imposter_model="variantmeshes/_variantmodels/man/helmets/hellencl_thracian_2.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/gre_thracian_masked_2_black.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/gre_thracian_masked_2_red.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/gre_thracian_masked_2_white.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/hellenic_thracian_3.rigid_model_v2"  imposter_model="variantmeshes/_variantmodels/man/helmets/hellencl_thracian_2.rigid_model_v2" >
+			<SLOT name="top_crests" attach_point="crest_centre" >
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/gre_thracian_masked_3_black.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/gre_thracian_masked_3_red.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\_variantmodels\man\crests/gre_thracian_masked_3_white.rigid_model_v2" />
+			</SLOT>
+			<SLOT name="side_crests" />
+		</VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/_VariantModels/man/helmets/seleucid_elite_helmet.rigid_model_v2"  imposter_model="variantmeshes/_variantmodels/man/helmets/hellencl_thracian_2.rigid_model_v2" >
+			<SLOT name="top_crests" >
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\crests/new_rom_crests_red.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\crests/new_rom_crests_black.VariantMeshDefinition" />
+				<VARIANT_MESH_REFERENCE definition="variantmeshes\_variantmodels\man\crests/new_rom_crests_white.VariantMeshDefinition" />
+			</SLOT>
+			<SLOT name="side_crests" />
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>
