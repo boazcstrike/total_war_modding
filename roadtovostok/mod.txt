@@ -1,0 +1,12 @@
+[mod]
+
+name="Faction Warfare+++"
+id="road-to-vostok-enemy-ai"
+version="1.2.3"
+
+[autoload]
+EnemyAIConfig="res://RoadToVostokEnemyAI/Config.gd"
+EnemyAIMain="res://RoadToVostokEnemyAI/Main.gd"
+
+[updates]
+modworkshop=56026

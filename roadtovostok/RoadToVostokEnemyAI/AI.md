@@ -93,7 +93,17 @@ To add new tactical behaviors like "corner wall hiding":
 - **Coordinated Attacks**: Implemented flanking maneuvers, covering fire, and pincer movements.
 - **Information Sharing**: AI can alert nearby allies to threats via a simple messaging system.
 - **Leadership Roles**: Designated squad leaders that make tactical decisions for the group.
+- ✅ No corner found: Falls back to regular corner finding
+- ✅ Multiple shots: Only triggers if not already corner hiding
+- ✅ Existing corner hiding: Won't interrupt current corner behavior
+- ✅ AI facing shot direction: Won't trigger if already looking toward threat
+- ✅ Squad coordination: Uses existing squad message system
 
+#### New Behavior Flow
+1. Detection: When a gunshot is detected from >50 units away, AI triggers distant shot response
+2. Crouch Phase: AI immediately crouches (speed/turn = 0) for configurable duration (default 0.75s)
+3. Directional Run: AI runs toward corner in direction of shot using cone-based search
+4. Corner Hide: Transitions to normal CornerHide behavior once corner is reached
 
 ## Dependencies
 - `EnemyAISettings` resource for behavior configuration

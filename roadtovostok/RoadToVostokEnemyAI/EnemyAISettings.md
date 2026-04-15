@@ -20,7 +20,7 @@ EnemyAISettings serves as the central configuration store for the mod, containin
 - **spawn_rate_adjustment**: Affects reinforcement speed (Lower/Vanilla/Higher)
 - **spawn_limit_bonus**: Extra active enemies beyond preset
 - **spawn_pool_bonus**: Additional reserve enemies
-- **initial_population_bonus**: More enemies at map start
+- **initial_population_bonus**: More enemies at map start (base 12 for default preset)
 - **spawn_distance**: Minimum distance from player for spawns
 
 ### Faction Controls

@@ -30,9 +30,17 @@ AISpawner.gd controls how and when enemies appear in the game world:
 - **Event Logging**: Records problematic spawns for debugging
 
 ### Initial Population
-- **Opening Spawns**: Places enemies at map start
+- **Opening Spawns**: Places at least 12 enemies at map start (minimum across all presets), distributed in batches of 5 over 1 second for rapid population growth
+- **Faction Diversity**: Spawns bandits, guards, and military simultaneously from faction-specific or shared spawn locations
+- **Bandit Prioritization**: Ensures substantial bandit presence in early spawns
 - **Special Roles**: Optional sentry (guard) and ambusher (hider) spawns
-- **Population Limits**: Respects configured maximums
+- **Population Limits**: Respects configured maximums and faction-specific caps
+
+### Spawn Location Configuration
+- **Faction-Specific Spawns**: Spawn points can be named with faction prefixes (e.g., `bandit_spawn1`, `guard_spawn2`) to restrict spawning to specific areas
+- **Shared Locations**: If no faction-specific points exist, agents spawn from general spawn points
+- **Scene Setup**: Add spawn point nodes in map scenes under a "Spawns" group, using faction prefixes for separation
+- **Fallback Behavior**: Agents will use shared locations if faction-specific ones are unavailable
 
 ### Spawn Event Handling
 - **Success Tracking**: Records successful spawns by faction and role

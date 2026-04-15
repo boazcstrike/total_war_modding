@@ -39,22 +39,4 @@ class_name EnemyAISettings
 # 0=Passive, 1=Default, 2=Aggressive, 3=Relentless
 @export var ai_tactics_preset = 1
 
-# Corner hiding and peeking settings
-@export var enable_corner_hiding = true
-@export var corner_detection_range = 20.0
-@export var peek_lean_intensity = 0.3
-@export var prefer_exterior_corners = true
-
-# Dynamic environmental adaptation
-@export var enable_dynamic_cover = true
-@export var enable_environmental_awareness = true
-@export var environmental_update_frequency = 2.0
-@export var weather_effects_enabled = true
-@export var time_of_day_effects_enabled = true
-
-# Interactive objects
-@export var enable_interactive_objects = false
-@export var door_interaction_range = 5.0
-@export var vehicle_interaction_range = 8.0
-
 var mcm_enabled = false

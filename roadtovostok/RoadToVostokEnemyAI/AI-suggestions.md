@@ -3,6 +3,32 @@
 ## Overview
 The current AI system provides a solid foundation with faction-based targeting, enhanced sensing, and tactical waypoint navigation. To significantly enhance the AI, we can focus on advanced behaviors, cooperative systems, environmental adaptation, and performance optimizations. Below are prioritized suggestions for major improvements.
 
+## 1. Cooperative Squad Behaviors
+**Current Limitation**: AI agents operate independently without coordination.
+**Enhancement**: Implement squad-based cooperation for tactical group maneuvers.
+
+- **Squad Formation**: Agents spawn and maintain coordinated formations (Military: disciplined squads, Guards: patrol formations, Bandits: loose groups).
+- **Leader-Follower System**: Squad leaders coordinate movements and issue commands to followers.
+- **Coordinated Attacks**: Squads can execute flanking maneuvers, covering fire, and pincer movements.
+- **Role Assignment**: Different squad roles (leader, flankers, suppressors, scouts) with specialized behaviors.
+- **Squad Communication**: Message passing system for threat alerts, position updates, and tactical commands.
+- **Faction Warfare**: Cross-faction combat with strategic squad positioning against enemy groups.
+- **Infighting System**: Configurable same-faction combat for dynamic encounters.
+- **Player Alignment**: Player can ally with factions, affecting squad hostility.
+
+**Agent Types**:
+- **Bandit**: Opportunistic raiders that roam and engage targets aggressively.
+- **Guard**: Stationary sentries with coordinated patrol squads and defensive positioning.
+- **Military**: Disciplined combatants with tactical squad movements and enhanced accuracy.
+- **Punisher (Boss)**: Elite independent agents with enhanced stats and minion spawning.
+
+**Implementation Approach**:
+- Add squad manager system for coordinating multiple agents.
+- Implement message passing for inter-agent communication.
+- Create formation constraints and leader-follower navigation.
+- Add role-based behavior modifiers.
+- Integrate with existing faction system for warfare mechanics.
+
 ## 2. Dynamic Environmental Adaptation
 **Current Limitation**: Waypoints are static and environment interaction is limited.
 **Enhancement**: Make AI more aware of and responsive to the game environment.
@@ -146,10 +172,44 @@ The current AI system provides a solid foundation with faction-based targeting, 
 - Add CornerHide state with persistent positioning logic.
 - Integrate with existing waypoint system as fallback enhancement.
 
+## 12. Distant Shot Corner Crouch Response
+**Current Limitation**: AI immediately reacts to distant gunfire without tactical positioning.
+**Enhancement**: Implement a crouch-and-run response for distant shots to simulate tactical awareness.
+
+- **Distant Shot Detection**: Detect gunfire from beyond normal engagement range.
+- **Crouch Phase**: AI crouches in place for a short duration to avoid immediate return fire.
+- **Directional Corner Movement**: After crouching, AI runs to the nearest corner perpendicular to the shot direction.
+- **Facing Angle Check**: Only trigger if AI is not already facing the threat direction.
+- **Configurable Parameters**: Adjustable crouch duration, detection range, and facing thresholds.
+
+**Implementation Approach**:
+- Add distant shot detection in FireDetection() with range and facing checks.
+- Implement crouch state variables (corner_crouch_timer, is_corner_crouching, distant_shot_direction).
+- Modify CornerHide() to handle crouch-to-run transition with speed/turnSpeed control.
+- Add _trigger_distant_shot_corner_response() function to initiate the sequence.
+- Extend GetDirectionalCornerHidePoint() to use shot direction for targeted corner finding.
+- Add settings in EnemyAISettings: enable_distant_shot_corner_response, distant_shot_detection_range, distant_shot_facing_angle_threshold, distant_shot_crouch_duration, corner_run_while_crouched.
+- Reset crouch state in ChangeState() when leaving CornerHide.
+
+## 13. Advanced Aiming and Animation Integration
+**Current Limitation**: Aiming system disabled to prevent T-pose animation issues.
+**Enhancement**: Implement spine-based aiming that integrates properly with the animation system.
+
+- **Spine Aiming**: AI aims weapons by rotating the spine bone for realistic aiming.
+- **Animation Compatibility**: Ensure aiming overrides don't interfere with full-body animations.
+- **Blend Weighting**: Use spine weight to blend between aimed and neutral poses.
+- **Recoil Simulation**: Add recoil effects through spine rotation adjustments.
+
+**Implementation Approach**:
+- Override Spine() function with proper super() calls.
+- Use set_bone_global_pose_override with appropriate weights.
+- Test with different animation states to ensure compatibility.
+- Add recoil parameters for weapon-specific aiming adjustments.
+
 ## Implementation Priority
-1. **High Priority**: Cooperative Behaviors, Dynamic Environmental Adaptation, Advanced Combat Tactics, Corner Wall Hiding and Peeking
-2. **Medium Priority**: Learning System, Communication Network, Personality System
-3. **Low Priority**: Performance Optimizations, Advanced Pathfinding, Game Integration, Debug Tools
+1. **High Priority**: Cooperative Squad Behaviors, Dynamic Environmental Adaptation, Advanced Combat Tactics, Corner Wall Hiding and Peeking, Advanced Aiming and Animation Integration
+2. **Medium Priority**: Learning and Adaptation System, Communication and Alert System, Personality and Variation System, Distant Shot Corner Crouch Response
+3. **Low Priority**: Performance and Scalability Improvements, Advanced Pathfinding and Navigation, Integration with Game Systems, Debug and Development Tools
 
 ## Technical Considerations
 - **Modularity**: Design enhancements as optional modules that can be enabled/disabled.

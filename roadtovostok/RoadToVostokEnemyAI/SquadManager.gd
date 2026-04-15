@@ -145,3 +145,12 @@ func get_total_squads() -> int:
         if has_active:
             count += 1
     return count
+
+# Get total number of alive agents in squads
+func get_alive_squad_members() -> int:
+    var count = 0
+    for squad_id in squads:
+        for agent in squads[squad_id]:
+            if is_instance_valid(agent) and not agent.is_paused:
+                count += 1
+    return count

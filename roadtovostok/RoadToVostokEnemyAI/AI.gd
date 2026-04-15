@@ -20,21 +20,6 @@ var lastAISoundTarget: Node3D
 var lastAISoundReason = ""
 var aiAudioLogCooldowns = {}
 
-# Squad variables
-var squad_id = ""
-var is_squad_leader = false
-var squad_manager
-
-# Squad state timers
-var flankTimer = 0.0
-var flankCycle = 2.0
-var coverTimer = 0.0
-var coverCycle = 3.0
-var rallyTimer = 0.0
-var rallyCycle = 1.5
-var cornerHideTimer = 0.0
-var cornerHideCycle = 4.0
-
 const PLAYER_PRIORITY_LOS_TIME = 3.0
 const PLAYER_PRIORITY_HEARING_TIME = 2.5
 const PLAYER_PRIORITY_GUNSHOT_TIME = 3.5
@@ -43,12 +28,6 @@ const AI_HEARING_WALK_DISTANCE = 8.0
 const AI_HEARING_GUNSHOT_DISTANCE = 60.0
 const AI_GUNSHOT_MEMORY_TIME = 1.25
 const AI_AUDIO_LOG_COOLDOWN = 2.0
-
-# Squad states
-const State_Flank = "Flank"
-const State_CoverAlly = "CoverAlly"
-const State_Rally = "Rally"
-const State_CornerHide = "CornerHide"
 
 func Activate():
     if boss:
@@ -63,14 +42,7 @@ func Activate():
     aiAudioSenseJitter = randf_range(0.0, 0.1)
     aiAudioSenseTimer = randf_range(0.0, _current_ai_audio_cycle())
 
-    # Squad setup
-    squad_id = get_meta("squad_id", "")
-    is_squad_leader = get_meta("squad_leader", false)
-    if is_instance_valid(AISpawner) and AISpawner.has_method("get_squad_manager"):
-        squad_manager = AISpawner.get_squad_manager()
-
     super()
-    _notify_debug_state_change("", currentState)
 
 func Parameters(delta):
     super(delta)
@@ -83,8 +55,6 @@ func Parameters(delta):
             LKL = playerPosition
 
     _update_hostile_ai_targeting(delta)
-    if EnemyAISettings.enable_environmental_awareness:
-        _update_environmental_awareness(delta)
 
 func Sensor(delta):
     sensorTimer += delta
@@ -185,18 +155,8 @@ func Decision():
     var engagement_visible = _engagement_visible()
     var can_direct_attack = _can_direct_attack_target()
 
-    # Squad coordination
-    if is_squad_leader and is_instance_valid(squad_manager) and squad_manager.get_squad_size(self) > 1:
-        # Leader can initiate coordinated actions
-        if randf() < 0.3 and engagement_visible and engagement_distance < 50:
-            squad_manager.send_squad_message(self, {
-                "type": "flank_target",
-                "position": _get_engagement_position(),
-                "sender": self
-            })
-
     if engagement_distance > 20:
-        var decision = randi_range(1, 12)  # Increased for new options
+        var decision = randi_range(1, 9)
 
         if decision == 1:
             ChangeState("Combat")
@@ -214,25 +174,6 @@ func Decision():
             ChangeState("Shift")
         elif decision == 8 and engagement_visible and engagement_distance < 100 and can_direct_attack and (weaponData.weaponAction != "Manual"):
             ChangeState("Attack")
-        elif decision == 9 and !AISpawner.noHiding and EnemyAISettings.enable_corner_hiding:
-            ChangeState("CornerHide")
-        elif decision == 10 and is_squad_leader and engagement_visible and engagement_distance < 50:
-            # Leader calls for rally
-            var rally_pos = _get_engagement_position() + (global_position - _get_engagement_position()).normalized() * 10.0
-            squad_manager.send_squad_message(self, {
-                "type": "rally",
-                "position": rally_pos,
-                "sender": self
-            })
-            ChangeState("Combat")
-        elif decision == 11 and !is_squad_leader and engagement_visible and engagement_distance < 30:
-            # Non-leader can request cover
-            squad_manager.send_squad_message(self, {
-                "type": "need_cover",
-                "position": global_position,
-                "sender": self
-            })
-            ChangeState("Combat")
         else:
             ChangeState("Combat")
     else:
@@ -309,63 +250,6 @@ func Return():
         ChangeState("Combat")
 
     if _get_engagement_distance() < 10:
-        ChangeState("Combat")
-
-func Flank(delta):
-    flankTimer += delta
-
-    if _engagement_visible():
-        Fire(delta)
-
-    if flankTimer > flankCycle:
-        flankTimer = 0.0
-
-    if agent.is_target_reached() or agent.is_navigation_finished():
-        ChangeState("Combat")
-
-    if _get_engagement_distance() < 8:
-        ChangeState("Combat")
-
-func CoverAlly(delta):
-    coverTimer += delta
-
-    if _engagement_visible():
-        Fire(delta)
-
-    if coverTimer > coverCycle:
-        coverTimer = 0.0
-
-    if agent.is_target_reached() or agent.is_navigation_finished():
-        ChangeState("Combat")
-
-func Rally(delta):
-    rallyTimer += delta
-
-    if rallyTimer > rallyCycle:
-        rallyTimer = 0.0
-
-    if agent.is_target_reached() or agent.is_navigation_finished():
-        ChangeState("Combat")
-
-    if _get_engagement_distance() < 15:
-        ChangeState("Combat")
-
-func CornerHide(delta):
-    cornerHideTimer += delta
-
-    if _engagement_visible():
-        Fire(delta)
-
-    if cornerHideTimer > cornerHideCycle:
-        cornerHideTimer = 0.0
-        if !GetCornerHidePoint():
-            ChangeState("Combat")
-
-    if agent.is_target_reached() or agent.is_navigation_finished():
-        # Stay at corner position persistently
-        pass
-
-    if _get_engagement_distance() < 8:
         ChangeState("Combat")
 
 func Fire(delta):
@@ -557,14 +441,6 @@ func GetCoverPoint() -> bool:
     var validPoints: Array[Node3D]
     var engagement_position = _get_engagement_position()
 
-    # First try dynamic cover detection
-    if EnemyAISettings.enable_dynamic_cover:
-        var dynamic_cover = _find_dynamic_cover()
-        if dynamic_cover != Vector3.ZERO:
-            MoveToPoint(dynamic_cover)
-            return true
-
-    # Fallback to static cover points
     if nearbyPoints.size() != 0:
         for point in nearbyPoints:
             if point.is_in_group("AI_CP"):
@@ -585,281 +461,6 @@ func GetCoverPoint() -> bool:
         return true
 
     return false
-
-func GetCornerHidePoint() -> bool:
-    # First try to find dynamic corners
-    if EnemyAISettings.enable_corner_hiding:
-        var corner_position = _find_dynamic_corner()
-        if corner_position != Vector3.ZERO:
-            MoveToPoint(corner_position)
-            return true
-
-    # Fallback to static corner points if available
-    var validPoints: Array[Node3D]
-    var engagement_position = _get_engagement_position()
-
-    if nearbyPoints.size() != 0:
-        for point in nearbyPoints:
-            if point.is_in_group("AI_CH"):  # Corner Hide points
-                var distanceToAI = global_position.distance_to(point.global_position)
-                var distanceToTarget = point.global_position.distance_to(engagement_position)
-
-                if distanceToAI < 40 and distanceToAI < distanceToTarget:
-                    if point != currentPoint:
-                        validPoints.append(point)
-
-    if validPoints.size() != 0:
-        var corner = validPoints.pick_random()
-        currentPoint = corner
-        MoveToPoint(corner.global_position)
-        return true
-
-    return false
-
-func _find_dynamic_corner() -> Vector3:
-    var space_state = get_world_3d().direct_space_state
-    var engagement_position = _get_engagement_position()
-    var ai_position = global_position
-    var direction_to_target = (engagement_position - ai_position).normalized()
-
-    # Cast rays in perpendicular directions to find walls
-    var perpendicular_left = direction_to_target.cross(Vector3.UP).normalized()
-    var perpendicular_right = -perpendicular_left
-
-    var ray_length = 5.0
-    var corner_candidates = []
-
-    # Check for L-shaped corners by casting rays in different directions
-    for angle_offset in [-45, 0, 45]:  # Check multiple angles
-        var base_direction = direction_to_target.rotated(Vector3.UP, deg_to_rad(angle_offset))
-
-        # Cast forward ray to find wall
-        var forward_query = PhysicsRayQueryParameters3D.create(ai_position, ai_position + base_direction * ray_length)
-        forward_query.exclude = [self]
-        var forward_result = space_state.intersect_ray(forward_query)
-
-        if forward_result and forward_result["collider"].is_in_group("Wall"):
-            var wall_hit_point = forward_result["position"]
-            var wall_normal = forward_result["normal"]
-
-            # Cast perpendicular rays from the wall hit point
-            for perp_dir in [perpendicular_left, perpendicular_right]:
-                var perp_query = PhysicsRayQueryParameters3D.create(wall_hit_point + wall_normal * 0.1, wall_hit_point + wall_normal * 0.1 + perp_dir * ray_length)
-                perp_query.exclude = [self]
-                var perp_result = space_state.intersect_ray(perp_query)
-
-                if perp_result and perp_result["collider"].is_in_group("Wall"):
-                    # Found potential L-shaped corner
-                    var corner_position = wall_hit_point + (perp_result["position"] - wall_hit_point) * 0.5
-                    corner_position.y = ai_position.y  # Keep at AI height
-
-                    # Check if this is an exterior corner using sky raycast
-                    if !EnemyAISettings.prefer_exterior_corners or _is_exterior_corner(corner_position):
-                        var distance_to_corner = ai_position.distance_to(corner_position)
-                        var distance_to_target = corner_position.distance_to(engagement_position)
-
-                        # Ensure corner is between AI and target, and not too far
-                        if distance_to_corner < EnemyAISettings.corner_detection_range and distance_to_corner < distance_to_target:
-                            corner_candidates.append({
-                                "position": corner_position,
-                                "distance": distance_to_corner
-                            })
-
-    # Return closest valid corner
-    if corner_candidates.size() > 0:
-        corner_candidates.sort_custom(func(a, b): return a.distance < b.distance)
-        return corner_candidates[0].position
-
-    return Vector3.ZERO
-
-func _is_exterior_corner(corner_position: Vector3) -> bool:
-    var space_state = get_world_3d().direct_space_state
-
-    # Cast ray upward to check if position is open to sky
-    var sky_query = PhysicsRayQueryParameters3D.create(corner_position + Vector3(0, 1, 0), corner_position + Vector3(0, 50, 0))
-    sky_query.exclude = [self]
-    var sky_result = space_state.intersect_ray(sky_query)
-
-    # If no collision (open to sky), it's exterior
-    return !sky_result
-
-func _calculate_peek_offset() -> Vector3:
-    # Simple peek logic: alternate between left and right leans
-    var peek_timer = Time.get_ticks_msec() / 1000.0
-    var peek_direction = sin(peek_timer * 2.0)  # Oscillates between -1 and 1
-
-    # Lean left or right based on peek direction
-    var lean_amount = EnemyAISettings.peek_lean_intensity
-    if peek_direction > 0:
-        return Vector3(lean_amount, 0, 0)  # Lean right
-    else:
-        return Vector3(-lean_amount, 0, 0)  # Lean left
-
-func _find_dynamic_cover() -> Vector3:
-    var space_state = get_world_3d().direct_space_state
-    var engagement_position = _get_engagement_position()
-    var ai_position = global_position
-    var direction_to_target = (engagement_position - ai_position).normalized()
-
-    var cover_candidates = []
-    var search_radius = 15.0
-    var ray_length = 8.0
-
-    # Cast rays in a fan pattern to find potential cover
-    for angle in range(-90, 91, 30):  # Check every 30 degrees
-        var ray_direction = direction_to_target.rotated(Vector3.UP, deg_to_rad(angle)).normalized()
-        var ray_end = ai_position + ray_direction * ray_length
-
-        var query = PhysicsRayQueryParameters3D.create(ai_position, ray_end)
-        query.exclude = [self]
-        var result = space_state.intersect_ray(query)
-
-        if result and result["collider"].is_in_group("Wall"):
-            var hit_point = result["position"]
-            var hit_normal = result["normal"]
-
-            # Check if this provides cover from the target
-            var cover_position = hit_point - hit_normal * 1.5  # Position behind the cover
-            cover_position.y = ai_position.y
-
-            # Verify the cover actually blocks line of sight to target
-            var los_query = PhysicsRayQueryParameters3D.create(cover_position + Vector3(0, 1, 0), engagement_position + Vector3(0, 1, 0))
-            los_query.exclude = [self]
-            var los_result = space_state.intersect_ray(los_query)
-
-            if los_result and los_result["collider"].is_in_group("Wall"):
-                # This position has cover
-                var distance_to_cover = ai_position.distance_to(cover_position)
-                var distance_to_target = cover_position.distance_to(engagement_position)
-
-                if distance_to_cover < search_radius and distance_to_cover < distance_to_target:
-                    cover_candidates.append({
-                        "position": cover_position,
-                        "distance": distance_to_cover
-                    })
-
-    # Return closest valid cover position
-    if cover_candidates.size() > 0:
-        cover_candidates.sort_custom(func(a, b): return a.distance < b.distance)
-        return cover_candidates[0].position
-
-    return Vector3.ZERO
-
-# Environmental awareness variables
-var environmental_update_timer = 0.0
-var environmental_update_cycle = 2.0  # Check every 2 seconds, can be overridden by settings
-var last_known_cover_positions = []
-var last_known_corner_positions = []
-
-func _update_environmental_awareness(delta):
-    environmental_update_timer += delta
-
-    if environmental_update_timer >= EnemyAISettings.environmental_update_frequency:
-        environmental_update_timer = 0.0
-        environmental_update_cycle = EnemyAISettings.environmental_update_frequency
-
-        # Check for changes in cover positions
-        var current_cover = _find_dynamic_cover()
-        if current_cover != Vector3.ZERO and not last_known_cover_positions.has(current_cover):
-            last_known_cover_positions.append(current_cover)
-            # Could trigger behavior change if current cover becomes invalid
-            if currentState == State.Cover and agent.is_target_reached():
-                var distance_to_current_cover = global_position.distance_to(agent.target_position)
-                if distance_to_current_cover > 2.0:  # Cover position changed
-                    ChangeState("Combat")  # Re-evaluate
-
-        # Check for changes in corner positions
-        var current_corner = _find_dynamic_corner()
-        if current_corner != Vector3.ZERO and not last_known_corner_positions.has(current_corner):
-            last_known_corner_positions.append(current_corner)
-
-        # Weather and time effects
-        _apply_weather_time_effects()
-
-func _notify_debug_state_change(old_state, new_state):
-    var debug_main = get_node_or_null("/root/EnemyAIMain")
-    if !debug_main:
-        return
-
-    var old_decision = _state_to_decision(old_state)
-    var new_decision = _state_to_decision(new_state)
-
-    if old_decision != new_decision:
-        debug_main.update_decision_count(old_decision, -1)
-        debug_main.update_decision_count(new_decision, 1)
-
-func _state_to_decision(state):
-    if state == "":
-        return ""
-    match state:
-        State.Combat:
-            return "Combat"
-        State.Hunt:
-            return "Hunt"
-        State.Attack:
-            return "Attack"
-        State.Shift:
-            return "Shift"
-        State.Hide:
-            return "Hide"
-        State.Cover:
-            return "Cover"
-        State.Vantage:
-            return "Vantage"
-        State.Guard:
-            return "Guard"
-        State.Patrol:
-            return "Patrol"
-        State.Ambush:
-            return "Ambush"
-        State.Return:
-            return "Return"
-        State_Flank:
-            return "Flank"
-        State_CoverAlly:
-            return "CoverAlly"
-        State_Rally:
-            return "Rally"
-        State_CornerHide:
-            return "CornerHide"
-        _:
-            return "Other"
-
-func _apply_weather_time_effects():
-    if !EnemyAISettings.weather_effects_enabled and !EnemyAISettings.time_of_day_effects_enabled:
-        return
-
-    # Adjust behavior based on weather and time
-    var baseSpeed = speed
-    var sight_multiplier = max(0.1, EnemyAISettings.ai_sight_multiplier)
-    var hearing_multiplier = max(0.1, EnemyAISettings.ai_hearing_multiplier)
-
-    # Weather effects
-    if EnemyAISettings.weather_effects_enabled and gameData.has_method("get_weather_state"):
-        var weather = gameData.get_weather_state()
-        if weather == "rain" or weather == "storm":
-            # Reduced visibility in rain
-            sight_multiplier *= 0.6
-            hearing_multiplier *= 0.8  # Rain noise can mask sounds
-        elif weather == "fog":
-            sight_multiplier *= 0.4
-
-    # Time of day effects
-    if EnemyAISettings.time_of_day_effects_enabled and gameData.has_method("get_time_of_day"):
-        var tod = gameData.get_time_of_day()
-        if tod >= 22 or tod <= 4:  # Night time
-            # Night patrols - more aggressive at night
-            if currentState == State.Patrol:
-                speed = baseSpeed * 1.2
-            # Reduced visibility at night (unless flashlight)
-            if !gameData.flashlight:
-                sight_multiplier *= 0.7
-
-    # Apply adjusted multipliers to current LOS check
-    # This affects the next LOSCheck call
-    extraVisibility = 0.0
-    if gameData.fog or (gameData.has_method("get_weather_state") and gameData.get_weather_state() == "fog"):
-        extraVisibility = -50.0 * (1.0 - sight_multiplier)
 
 func GetShiftWaypoint():
     var validPoints: Array[Node3D]
@@ -891,10 +492,7 @@ func GetAttackWaypoint():
     MoveToPoint(lastKnownLocation)
 
 func ChangeState(state):
-    var old_state = currentState
     super(state)
-    var new_state = currentState
-    _notify_debug_state_change(old_state, new_state)
 
     var cycle_scale = _get_tactics_cycle_scale()
 
@@ -912,21 +510,9 @@ func ChangeState(state):
         attackCycle *= cycle_scale
     elif currentState == State.Ambush:
         ambushCycle *= cycle_scale
-    elif state == "Flank":
-        flankCycle = 2.0 * cycle_scale
-        flankTimer = 0.0
-    elif state == "CoverAlly":
-        coverCycle = 3.0 * cycle_scale
-        coverTimer = 0.0
-    elif state == "Rally":
-        rallyCycle = 1.5 * cycle_scale
-        rallyTimer = 0.0
-    elif state == "CornerHide":
-        cornerHideCycle = 4.0 * cycle_scale
-        cornerHideTimer = 0.0
 
 func Spine(delta):
-    if currentState == State.Defend or currentState == State.Combat or currentState == State.Hunt or currentState == State.Attack or currentState == State.Shift or currentState == State_Flank or currentState == State_CoverAlly or currentState == State_CornerHide:
+    if currentState == State.Defend or currentState == State.Combat or currentState == State.Hunt or currentState == State.Attack or currentState == State.Shift:
         spineWeight = move_toward(spineWeight, spineData.weight, delta)
     else:
         spineWeight = move_toward(spineWeight, 0.0, delta * 10.0)
@@ -939,11 +525,6 @@ func Spine(delta):
     else:
         aimTarget = -skeleton.to_local(LKL)
         aimTarget += Vector3(0, 1, 0)
-
-    # Add peek lean offsets for CornerHide state
-    if currentState == State_CornerHide and _engagement_visible():
-        var peek_offset = _calculate_peek_offset()
-        aimTarget += peek_offset
 
     var spineAimPose = spinePose.looking_at(aimTarget, Vector3.UP)
     spineAimPose.basis = spineAimPose.basis.rotated(spineAimPose.basis.x, deg_to_rad(spineTarget.x))
@@ -969,12 +550,6 @@ func Death(direction, force):
     if is_instance_valid(AISpawner) and AISpawner.has_method("replenish_regular_pool") and !boss:
         AISpawner.replenish_regular_pool(_self_faction())
     _clear_ai_target()
-
-    # Remove from squad
-    if is_instance_valid(squad_manager):
-        squad_manager.remove_from_squad(self)
-
-    _notify_debug_state_change(currentState, "")
 
     var debug_main = get_node_or_null("/root/EnemyAIMain")
     if debug_main:
@@ -1099,13 +674,6 @@ func _update_hostile_ai_targeting(delta):
                 targetVisibilityTimer = current_visibility_cycle
                 _debug_log("Hostile target acquired: %s" % targetLabel)
                 _push_debug_status("Hostile target acquired")
-                # Alert squad to threat
-                if is_instance_valid(squad_manager):
-                    squad_manager.send_squad_message(self, {
-                        "type": "threat_spotted",
-                        "position": _get_ai_target_position(currentAITarget),
-                        "sender": self
-                    })
 
     if !_has_valid_ai_target():
         _update_target_visibility()
@@ -1353,10 +921,6 @@ func _is_valid_hostile_ai_target(node) -> bool:
     if bool(node.get("pause")):
         return false
     if !node.has_meta("enemy_ai_faction"):
-        return false
-
-    # Don't target squad mates
-    if is_instance_valid(squad_manager) and squad_manager.are_squad_mates(self, node):
         return false
 
     return _is_hostile_faction(_self_faction(), str(node.get_meta("enemy_ai_faction")))
@@ -1690,45 +1254,3 @@ func _get_preferred_hit_targets(hitCollider) -> Array:
 
     targets.append(_get_fire_target_position())
     return targets
-
-# Squad communication
-func receive_squad_message(message: Dictionary):
-    var msg_type = message.get("type", "")
-    var position = message.get("position", Vector3.ZERO)
-    var sender = message.get("sender")
-
-    match msg_type:
-        "threat_spotted":
-            # If not already engaged, move towards threat
-            if currentState in [State.Wander, State.Guard, State.Patrol] and !_has_valid_ai_target():
-                lastKnownLocation = position
-                Decision()
-        "need_cover":
-            # If leader, assign cover position
-            if is_squad_leader:
-                _assign_cover_position(sender)
-        "rally":
-            # Move to rally point
-            if currentState != State.Combat:
-                ChangeState("Rally")
-                rally_target = position
-        "flank_target":
-            # Attempt flanking maneuver
-            if is_squad_leader or randf() < 0.5:
-                _attempt_flank(position)
-
-var rally_target = Vector3.ZERO
-
-func _assign_cover_position(ally):
-    # Simple cover assignment - move to position behind ally
-    if is_instance_valid(ally):
-        var cover_pos = ally.global_position + (global_position - ally.global_position).normalized() * 5.0
-        MoveToPoint(cover_pos)
-        ChangeState("CoverAlly")
-
-func _attempt_flank(target_pos: Vector3):
-    # Calculate flank position
-    var flank_dir = (target_pos - global_position).rotated(Vector3.UP, PI/2).normalized()
-    var flank_pos = target_pos + flank_dir * 10.0
-    MoveToPoint(flank_pos)
-    ChangeState("Flank")

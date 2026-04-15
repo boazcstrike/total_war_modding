@@ -41,24 +41,6 @@ var spawnCountsByRole = {
     "Minion": 0,
     "Boss": 0
 }
-var squadCount = 0
-var decisionCounts = {
-    "Combat": 0,
-    "Hunt": 0,
-    "Attack": 0,
-    "Shift": 0,
-    "Hide": 0,
-    "Cover": 0,
-    "Vantage": 0,
-    "Guard": 0,
-    "Patrol": 0,
-    "Ambush": 0,
-    "Return": 0,
-    "Flank": 0,
-    "CoverAlly": 0,
-    "Rally": 0,
-    "CornerHide": 0
-}
 var mcm_compat_patch_attempted = false
 var mcm_compat_patch_applied = false
 var mcm_compat_timer = 0.0
@@ -166,24 +148,6 @@ func begin_map(map_name: String, zone_name: String, info: Dictionary = {}):
         "Minion": 0,
         "Boss": 0
     }
-    squadCount = 0
-    decisionCounts = {
-        "Combat": 0,
-        "Hunt": 0,
-        "Attack": 0,
-        "Shift": 0,
-        "Hide": 0,
-        "Cover": 0,
-        "Vantage": 0,
-        "Guard": 0,
-        "Patrol": 0,
-        "Ambush": 0,
-        "Return": 0,
-        "Flank": 0,
-        "CoverAlly": 0,
-        "Rally": 0,
-        "CornerHide": 0
-    }
     lastEvent = str(info.get("last_event", "Map loaded"))
     _render_debug()
 
@@ -221,8 +185,6 @@ func update_status(active_count: int, info: Dictionary = {}):
         currentFaction = str(info["current_faction"])
     if info.has("current_target"):
         currentTarget = str(info["current_target"])
-    if info.has("squad_count"):
-        squadCount = int(info["squad_count"])
     if info.has("last_event"):
         lastEvent = str(info["last_event"])
     _render_debug()
@@ -268,17 +230,6 @@ func record_suspicious_spawn(event_name: String, active_count: int, info: Dictio
     suspiciousSpawnCount += 1
     update_status(active_count, info)
     lastEvent = event_name
-    _render_debug()
-
-func update_squad_count(count: int):
-    squadCount = count
-    _render_debug()
-
-func update_decision_count(decision: String, delta: int):
-    if decision == "" or !decisionCounts.has(decision):
-        return
-    decisionCounts[decision] += delta
-    decisionCounts[decision] = max(0, decisionCounts[decision])  # Prevent negative
     _render_debug()
 
 func log_debug(_message: String):
@@ -342,25 +293,6 @@ func _render_debug():
     if EnemyAISettings.player_invulnerable:
         spectatorStatus = "ON"
 
-    var squadSummary = "Squads: %d" % squadCount
-    var decisionSummary = "Combat %d | Hunt %d | Attack %d | Shift %d | Hide %d | Cover %d | Vantage %d | Guard %d | Patrol %d | Ambush %d | Return %d | Flank %d | CoverAlly %d | Rally %d | CornerHide %d" % [
-        decisionCounts["Combat"],
-        decisionCounts["Hunt"],
-        decisionCounts["Attack"],
-        decisionCounts["Shift"],
-        decisionCounts["Hide"],
-        decisionCounts["Cover"],
-        decisionCounts["Vantage"],
-        decisionCounts["Guard"],
-        decisionCounts["Patrol"],
-        decisionCounts["Ambush"],
-        decisionCounts["Return"],
-        decisionCounts["Flank"],
-        decisionCounts["CoverAlly"],
-        decisionCounts["Rally"],
-        decisionCounts["CornerHide"]
-    ]
-
     debugLabel.text = "\n".join([
         "Enemy AI Debug",
         "Map: %s | Zone: %s" % [currentMap, currentZone],
@@ -375,8 +307,6 @@ func _render_debug():
         "Combat Totals: %s" % hitSummary,
         "Faction Totals: %s" % factionSummary,
         "Role Totals: %s" % roleSummary,
-        squadSummary,
-        "Decision Counts: %s" % decisionSummary,
         "Last Event: %s" % lastEvent
     ])
 
