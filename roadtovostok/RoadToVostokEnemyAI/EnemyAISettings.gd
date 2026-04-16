@@ -22,12 +22,10 @@ class_name EnemyAISettings
 @export var guard_infighting_enabled = false
 @export var military_infighting_enabled = false
 @export var warfare_enabled = false
-@export var enemy_squads_enabled = true
 @export var player_faction_alignment = 0
 @export var corpse_cleanup_limit = 20
 @export var player_invulnerable = false
 @export var show_debug_overlay = true
-@export var show_debug_logs = true
 @export var replenish_spawn_pool = true
 
 @export var ai_health_multiplier = 1.0
